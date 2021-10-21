@@ -8,6 +8,11 @@
 # User-specific files
 .Ruserdata
 
+# Too heavy files
+data/raw/
+data/temp/
+output/shp/
+
 # Example code in package build process
 *-Ex.R
 
