@@ -212,7 +212,7 @@ tgcv <- censo2002 %>%
 
 # Guardar resultados
 
-save(hacinam_cty, file = glue("{dirs@cleandatadir}/hacinam_cty.RDS"))
-save(hacinam_com, file = glue("{dirs@cleandatadir}/hacinam_com.RDS"))
-save(hacinam_pmc, file = glue("{dirs@cleandatadir}/hacinam_pmc.RDS"))
+#save(hacinam_cty, file = glue("{dirs@cleandatadir}/hacinam_cty.RDS"))
+#save(hacinam_com, file = glue("{dirs@cleandatadir}/hacinam_com.RDS"))
+#save(hacinam_pmc, file = glue("{dirs@cleandatadir}/hacinam_pmc.RDS"))
 
