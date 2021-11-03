@@ -1,7 +1,7 @@
-#### 301 - Hacinamiento ####
+#### 203 - Salud Infantil ####
 
 # Autor: Rodrigo Villegas Salgado
-# version: 04-10-21
+# version: 03-11-21
 # email: rdvillegas@uc.cl
 # status: production
 # rol: data export
@@ -9,11 +9,12 @@
 # Librerías
 
 library(tidyverse)
-library(glue)
 library(here)
+library(glue)
+
 
 # Indicador
-indicator <- "3 - Equidad/301 - Hacinamiento"
+indicator <- "2 - Salud/203 - Salud Infantil"
 
 # Importar funciones auxiliares
 source("src/functions/get_workdirs.R")
@@ -22,16 +23,14 @@ source("src/functions/get_workdirs.R")
 dirs <- getDirs(indicator)
 
 # Cargar datos
-load(glue("{dirs@cleandatadir}/hacinam_com.RDS"))
-load(glue("{dirs@cleandatadir}/hacinam_cty.RDS"))
-load(glue("{dirs@cleandatadir}/hacinam_pmc.RDS"))
+load(glue("{dirs@cleandatadir}/diagnutr_com.RDS"))
+load(glue("{dirs@cleandatadir}/diagnutr_city.RDS"))
+load(glue("{dirs@cleandatadir}/diagnutr_pmc.RDS"))
 
 # Identificar años de datos
-agnos <- unique(hacinam_com$agno)
+agnos <- unique(diagnutr_com$agno)
 
 #### Exportar datos ####
-
-# Nombre indicador (para exportar)
 indiname <- str_split(string =  indicator, pattern =  "/")[[1]][2] %>%
   paste0("_")
 
@@ -39,7 +38,7 @@ indiname <- str_split(string =  indicator, pattern =  "/")[[1]][2] %>%
 lapply(agnos, function(x){
   print(paste("Exportando a nivel Comunal. Año: ", x))
   filename <- paste0(indiname,x, ".csv")
-  tmp <- hacinam_com %>%
+  tmp <- diagnutr_com %>%
     filter(agno == x)
   write.csv2(tmp, glue("{dirs@outdircom}/{filename}"), row.names = F)
 })
@@ -48,7 +47,7 @@ lapply(agnos, function(x){
 lapply(agnos, function(x){
   print(paste("Exportando a nivel Ciudad. Año: ", x))
   filename <- paste0(indiname,x, ".csv")
-  tmp <- hacinam_cty %>%
+  tmp <- diagnutr_city %>%
     filter(agno == x)
   write.csv2(tmp, glue("{dirs@outdircty}{filename}"), row.names = F)
 })
@@ -57,7 +56,7 @@ lapply(agnos, function(x){
 lapply(agnos, function(x){
   print(paste("Exportando datos para PMC. Año: ", x))
   filename <- paste0(indiname,x, ".csv")
-  tmp <- hacinam_pmc %>%
+  tmp <- diagnutr_pmc %>%
     filter(agno == x) %>%
     select(-agno)
   write.csv(tmp, glue("{dirs@outdirpmc}{filename}"), row.names = F)
