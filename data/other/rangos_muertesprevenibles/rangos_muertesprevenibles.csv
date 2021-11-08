@@ -1,0 +1,49 @@
+﻿Enfermedad;Edad_min;Edad_max;Char_Min;Char_Max;Sexo
+Tuberculosis;0;74;A150;A199;0
+Tuberculosis;0;74;B900;B909;0
+Tumor maligno de cuello de utero;15;74;C530;C539;2
+Tumor maligno de cuerpo de utero y tumor maligno de utero de parte no esecificada;15;74;C540;C559;2
+Enfermedad de Hodgkin;0;74;C810;C819;0
+Enfermedad reumatica cronica del corazon;0;74;I050;I099;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;A481;A481;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J000;J019;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J021;J029;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J031;J069;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J100;J181;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J183;J189;0
+Neumonia, infecciones respiratorias agudas y gripe;0;74;J200;J229;0
+Asma;5;49;J450;J469;0
+Enfermedades del apendice;0;74;K350;K389;0
+Hernia abdominal;0;74;K400;K469;0
+Colelitiasis/colecistitis;0;74;K800;K829;0
+Hipertension;0;74;I100;I159;0
+Enfermedades vasculares cerebrales;0;74;I600;I699;0
+Enfermedades vasculares cerebrales;0;74;G450;G459;0
+Enfermedades vasculares cerebrales;0;74;F011;F011;0
+Mortalidad materna;0;1000;O000;O999;2
+Mortalidad materna;0;1000;A340;A349;2
+Mortalidad perinatal;0;1000;P000;P969;0
+Mortalidad perinatal;0;1000;A330;A339;0
+Cancer de mama femenino;0;74;C509;C509;2
+Enfermedad isquemica del corazon;35;74;I200;I259;0
+Ulceras pepticas;0;74;K250;K289;0
+Enfermedades vacunables;0;74;A350;A379;0
+Enfermedades vacunables;0;74;A492;A492;0
+Enfermedades vacunables;0;74;A800;A809;0
+Enfermedades vacunables;0;74;B050;B069;0
+Enfermedades vacunables;0;74;B150;B169;0
+Enfermedades vacunables;0;74;B170;B170;0
+Enfermedades vacunables;0;74;B180;B181;0
+Enfermedades vacunables;0;74;B260;B269;0
+Anemias carenciales;0;74;D500;D539;0
+Tumor maligno de piel (melanoma y no melanoma);0;74;C430;C449;0
+Tumor maligno de piel (melanoma y no melanoma);0;74;C460;C460;0
+Tumor maligno de piel (melanoma y no melanoma);0;74;C469;C469;0
+Tumor maligno de testiculos;0;74;C620;C629;1
+Leucemia;0;14;C910;C959;0
+Enfermedades de tiroides;0;74;E000;E079;0
+Diabetes mellitus;0;49;E100;E149;0
+Hiperplasia benigna de prostata;0;74;N400;N409;1
+Anomalias congenitas cardiovasculares;0;74;Q200;Q289;0
+Anomalias congenitas cardiovasculares;0;74;I1510;I1510;0
+Incidentes adversos ocurridos durante la atencin medica y quirurgica;0;1000;Y600;Y849;0

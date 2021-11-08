@@ -9,7 +9,6 @@
 .Ruserdata
 
 # Too heavy files
-data/raw/
 data/temp/
 output/shp/
 

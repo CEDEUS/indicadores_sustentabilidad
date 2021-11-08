@@ -1,0 +1,1 @@
+la raw data se encuentra en el data warehouse del observatorio

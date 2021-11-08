@@ -1,0 +1,34 @@
+indice;indicador;data;folder
+101;consumo de agua potable;;
+102;calidad de agua potable;;
+103;calidad de tratamiento aguas servidas;;
+104;calidad de aire;;
+105;residuos solidos domiciliarios;;
+106;consumo electrico;;
+107;superficie areas verdes;;
+201;mortalidad evitable;deis;minsal/deis/defunciones/
+201;mortalidad evitable;estimaciones_poblacion;ine/estimaciones_poblacion/
+202;años de vida potencialmente perdidos;deis;minsal/deis/defunciones/
+202;años de vida potencialmente perdidos;estimaciones_poblacion;ine/estimaciones_poblacion/
+203;sobrepeso y obesidad infantil;junaeb;mineduc/junaeb/mapa_nutricional
+204;accesibilidad a ferias libres;;
+301;hacinamiento;censo;ine/censos/
+302;familias en campamentos;techo;techo/campamentos/
+303;pobreza infantil;casen;mindes/casen/
+304;ocupacion femenina;ene;ine/ene/
+305;equidad de genero en empleo;ene;ine/ene/
+306;acceso a internet;casen;mindes/casen/
+307;acceso y calidad de educacion;;
+308;deficit de vivienda;censo;ine/censos/
+401;acceso a areas verdes;areas_verdes;ine/siedu/areas_verdes/
+401;acceso a areas verdes;censo;ine/censos/
+402;acceso a equipamiento deportivo;;
+403;acceso a equipamiento cultura;;
+404;particion modal;;
+405;tiempos de viaje;;
+501;carabineros;;
+502;bomberos;;
+503;ambulancias;;
+504;participación electoral;;
+505;respuestas a solicitudes de transparencia;;
+506;dependencia fondo común municipal;;

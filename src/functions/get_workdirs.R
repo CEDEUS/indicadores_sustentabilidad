@@ -4,7 +4,6 @@
 
 setClass(Class="workDirs",
          representation(
-           rawdatadir = "character",
            cleandatadir = "character",
            outdircom   = "character",
            outdircty   = "character",
@@ -20,7 +19,6 @@ setClass(Class="workDirs",
 getDirs <- function(indicator) {
 
   return( new("workDirs", 
-              rawdatadir = here(glue("data/raw/{indicator}")),
               cleandatadir = here(glue("data/temp/{indicator}/")),
               outdircom = glue(here("output"), "/comuna/{indicator}/"),
               outdircty = glue(here("output"), "/ciudad/{indicator}/"),
