@@ -9,6 +9,7 @@ indice;indicador;data;folder
 201;mortalidad evitable;deis;minsal/deis/defunciones/
 201;mortalidad evitable;estimaciones_poblacion;ine/estimaciones_poblacion/
 202;años de vida potencialmente perdidos;deis;minsal/deis/defunciones/
+202;años de vida potencialmente perdidos;deis;minsal/deis/esperanza_vida/
 202;años de vida potencialmente perdidos;estimaciones_poblacion;ine/estimaciones_poblacion/
 203;sobrepeso y obesidad infantil;junaeb;mineduc/junaeb/mapa_nutricional
 204;accesibilidad a ferias libres;;

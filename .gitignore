@@ -10,6 +10,8 @@
 
 # Too heavy files
 data/temp/
+data/raw/common/
+data/raw/censo/
 output/shp/
 
 # Example code in package build process
