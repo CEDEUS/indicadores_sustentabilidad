@@ -1,72 +1,1346 @@
-"agno";"comuna";"nom_com";"city";"AVPP"
-2006;1101;"Iquique";"Iquique - Alto Hospicio";5478,86828111393
-2006;1107;"Alto Hospicio";"Iquique - Alto Hospicio";3228,88318030369
-2006;2101;"Antofagasta";"Antofagasta";4923,70169023082
-2006;3101;"Copiapó";"Copiapo";4672,19346726321
-2006;4101;"La Serena";"Gran Coquimbo";3875,12771815993
-2006;4102;"Coquimbo";"Gran Coquimbo";3888,46309904874
-2006;5101;"Valparaíso";"Valparaíso Metropolitano";5479,59885005654
-2006;5103;"Concón";"Valparaíso Metropolitano";4816,62024141133
-2006;5109;"Viña del Mar";"Valparaíso Metropolitano";4338,54073225597
-2006;5801;"Quilpué";"Valparaíso Metropolitano";3942,31949901768
-2006;5804;"Villa Alemana";"Valparaíso Metropolitano";3248,09608080969
-2006;6101;"Rancagua";"Rancagua - Machalí";5656,9979976854
-2006;6108;"Machalí";"Rancagua - Machalí";3334,83045138109
-2006;7101;"Talca";"Talca - Maule";4341,27400978799
-2006;7105;"Maule";"Talca - Maule";2437,71433293393
-2006;8101;"Concepción";"Gran Concepcion";4842,57780302783
-2006;8102;"Coronel";"Gran Concepcion";4370,22770157309
-2006;8103;"Chiguayante";"Gran Concepcion";4327,10520205785
-2006;8106;"Lota";"Gran Concepcion";6631,04624139354
-2006;8107;"Penco";"Gran Concepcion";4483,17439438781
-2006;8108;"San Pedro de la Paz";"Gran Concepcion";4539,62209482812
-2006;8110;"Talcahuano";"Gran Concepcion";4884,29224509798
-2006;8111;"Tomé";"Gran Concepcion";3872,03764052527
-2006;8112;"Hualpén";"Gran Concepcion";4548,5568858812
-2006;9101;"Temuco";"Temuco";5129,2522883722
-2006;9112;"Padre Las Casas";"Temuco";4416,15121353889
-2006;10101;"Puerto Montt";"Puerto Montt - Varas";6658,62264763141
-2006;10109;"Puerto Varas";"Puerto Montt - Varas";4941,15659665522
-2006;11101;"Coihaique";"Coyhaique";4905,83406850524
-2006;12101;"Punta Arenas";"Punta Arenas";5750,27335836646
-2006;13101;"Santiago";"Gran Santiago";3536,07828727252
-2006;13102;"Cerrillos";"Gran Santiago";4287,21188275177
-2006;13103;"Cerro Navia";"Gran Santiago";5233,90230704904
-2006;13104;"Conchalí";"Gran Santiago";4517,00452081634
-2006;13105;"El Bosque";"Gran Santiago";4965,37836501095
-2006;13106;"Estación Central";"Gran Santiago";6122,59169901046
-2006;13107;"Huechuraba";"Gran Santiago";4628,34477423158
-2006;13108;"Independencia";"Gran Santiago";6416,17196072363
-2006;13109;"La Cisterna";"Gran Santiago";4121,45700873492
-2006;13110;"La Florida";"Gran Santiago";3709,11037645773
-2006;13111;"La Granja";"Gran Santiago";4565,46435671684
-2006;13112;"La Pintana";"Gran Santiago";5700,23548968001
-2006;13113;"La Reina";"Gran Santiago";2998,15448374111
-2006;13114;"Las Condes";"Gran Santiago";2611,74652114709
-2006;13115;"Lo Barnechea";"Gran Santiago";2670,16773976955
-2006;13116;"Lo Espejo";"Gran Santiago";5966,62468513854
-2006;13117;"Lo Prado";"Gran Santiago";5080,89500860585
-2006;13118;"Macul";"Gran Santiago";3907,40345240638
-2006;13119;"Maipú";"Gran Santiago";3328,36228358616
-2006;13120;"Ñuñoa";"Gran Santiago";3111,89407978153
-2006;13121;"Pedro Aguirre Cerda";"Gran Santiago";5510,77995610557
-2006;13122;"Peñalolén";"Gran Santiago";4510,778103643
-2006;13123;"Providencia";"Gran Santiago";4061,56477126977
-2006;13124;"Pudahuel";"Gran Santiago";4711,37891887171
-2006;13125;"Quilicura";"Gran Santiago";4466,87962561291
-2006;13126;"Quinta Normal";"Gran Santiago";5044,34535715331
-2006;13127;"Recoleta";"Gran Santiago";5347,32357152244
-2006;13128;"Renca";"Gran Santiago";5571,4306435938
-2006;13129;"San Joaquín";"Gran Santiago";4241,82296009372
-2006;13130;"San Miguel";"Gran Santiago";4325,80894343833
-2006;13131;"San Ramón";"Gran Santiago";4699,33647424055
-2006;13132;"Vitacura";"Gran Santiago";3283,76861864926
-2006;13201;"Puente Alto";"Gran Santiago";3780,19906673103
-2006;13401;"San Bernardo";"Gran Santiago";5384,03001518175
-2006;14101;"Valdivia";"Valdivia";4954,3135980979
-2006;15101;"Arica";"Arica";4792,0040671499
-2006;16101;"Chillán";"Chillán";5808,14005956141
-2006;16102;"Bulnes";"Chillán";6300,54075507268
-2006;16103;"Chillán Viejo";"Chillán";4425,68958419103
-2006;16301;"San Carlos";"Chillán";5459,91647142712
-2006;16305;"San Nicolás";"Chillán";2102,40418468967
+"comuna","nom_com","city","AVPP"
+1101,"Iquique","Iquique - Alto Hospicio",7040.87748741309
+2101,"Antofagasta","Antofagasta",5719.84799725647
+3101,"Copiapó","Copiapo",4869.37811352527
+4101,"La Serena","Gran Coquimbo",4469.85381964209
+4102,"Coquimbo","Gran Coquimbo",4372.79800352319
+5101,"Valparaíso","Valparaíso Metropolitano",4879.71016662425
+5103,"Concón","Valparaíso Metropolitano",4079.09850060535
+5109,"Viña del Mar","Valparaíso Metropolitano",4108.08849941496
+5801,"Quilpué","Valparaíso Metropolitano",4276.52115449263
+5804,"Villa Alemana","Valparaíso Metropolitano",4324.39944835844
+6101,"Rancagua","Rancagua - Machalí",5339.02629718582
+6108,"Machalí","Rancagua - Machalí",5216.06436845391
+7101,"Talca","Talca - Maule",5242.16609227127
+7105,"Maule","Talca - Maule",2677.93804681958
+8101,"Concepción","Gran Concepcion",4896.80441537962
+8102,"Coronel","Gran Concepcion",6146.14468156261
+8103,"Chiguayante","Gran Concepcion",4221.98521569637
+8106,"Lota","Gran Concepcion",6045.70140383236
+8107,"Penco","Gran Concepcion",5189.78213840876
+8108,"San Pedro de la Paz","Gran Concepcion",3738.39839272288
+8110,"Talcahuano","Gran Concepcion",7417.2031001663
+8111,"Tomé","Gran Concepcion",4954.18153757114
+9101,"Temuco","Temuco",4955.28955240844
+9112,"Padre Las Casas","Temuco",4918.36255741442
+10101,"Puerto Montt","Puerto Montt - Varas",6639.47723688838
+10109,"Puerto Varas","Puerto Montt - Varas",4090.89505696378
+11101,"Coihaique","Coyhaique",6334.98769317677
+12101,"Punta Arenas","Punta Arenas",5982.61742758704
+13101,"Santiago","Gran Santiago",4693.68683706009
+13102,"Cerrillos","Gran Santiago",6071.36264890883
+13103,"Cerro Navia","Gran Santiago",5638.07111092951
+13104,"Conchalí","Gran Santiago",5230.20641246803
+13105,"El Bosque","Gran Santiago",4708.65996282485
+13106,"Estación Central","Gran Santiago",6288.08189129905
+13107,"Huechuraba","Gran Santiago",4144.548521052
+13108,"Independencia","Gran Santiago",8731.28350483702
+13109,"La Cisterna","Gran Santiago",4354.64077858644
+13110,"La Florida","Gran Santiago",3995.11677399132
+13111,"La Granja","Gran Santiago",5447.50351402554
+13112,"La Pintana","Gran Santiago",5169.056840783
+13113,"La Reina","Gran Santiago",3165.50136425648
+13114,"Las Condes","Gran Santiago",2614.45049057714
+13115,"Lo Barnechea","Gran Santiago",3106.21108904027
+13116,"Lo Espejo","Gran Santiago",5505.48502184222
+13117,"Lo Prado","Gran Santiago",5337.37015985452
+13118,"Macul","Gran Santiago",3632.18687726031
+13119,"Maipú","Gran Santiago",3659.98914868004
+13120,"Ñuñoa","Gran Santiago",3499.8352553542
+13121,"Pedro Aguirre Cerda","Gran Santiago",5884.38783384632
+13122,"Peñalolén","Gran Santiago",4672.28442802724
+13123,"Providencia","Gran Santiago",4116.14846771794
+13124,"Pudahuel","Gran Santiago",5177.31542463649
+13125,"Quilicura","Gran Santiago",3762.33187320864
+13126,"Quinta Normal","Gran Santiago",5686.51389932382
+13127,"Recoleta","Gran Santiago",5742.28397099803
+13128,"Renca","Gran Santiago",5046.91306047575
+13129,"San Joaquín","Gran Santiago",4338.60035845986
+13130,"San Miguel","Gran Santiago",6621.64166026341
+13131,"San Ramón","Gran Santiago",6205.54099588169
+13132,"Vitacura","Gran Santiago",2191.98111997537
+13201,"Puente Alto","Gran Santiago",3626.2509429218
+13401,"San Bernardo","Gran Santiago",4994.61464331123
+14101,"Valdivia","Valdivia",5694.17694692451
+15101,"Arica","Arica",5363.76992980356
+16101,"Chillán","Chillán",5268.50606903645
+16102,"Bulnes","Chillán",9855.81670946079
+16103,"Chillán Viejo","Chillán",3353.68632096965
+16301,"San Carlos","Chillán",6544.30019128241
+16305,"San Nicolás","Chillán",4914.57498418055
+1101,"Iquique","Iquique - Alto Hospicio",7082.16870592155
+2101,"Antofagasta","Antofagasta",5243.66538212325
+3101,"Copiapó","Copiapo",4247.58303416285
+4101,"La Serena","Gran Coquimbo",4232.69071627793
+4102,"Coquimbo","Gran Coquimbo",3743.73846559452
+5101,"Valparaíso","Valparaíso Metropolitano",5764.89725260786
+5103,"Concón","Valparaíso Metropolitano",2893.99853622835
+5109,"Viña del Mar","Valparaíso Metropolitano",4578.43656255514
+5801,"Quilpué","Valparaíso Metropolitano",3679.95186293604
+5804,"Villa Alemana","Valparaíso Metropolitano",3525.70828961175
+6101,"Rancagua","Rancagua - Machalí",6712.252042007
+6108,"Machalí","Rancagua - Machalí",5447.82708217521
+7101,"Talca","Talca - Maule",5124.96406229863
+7105,"Maule","Talca - Maule",5546.58919733161
+8101,"Concepción","Gran Concepcion",5636.61524458768
+8102,"Coronel","Gran Concepcion",5549.17444364681
+8103,"Chiguayante","Gran Concepcion",3920.94318558231
+8106,"Lota","Gran Concepcion",6122.02387151874
+8107,"Penco","Gran Concepcion",5402.80420850012
+8108,"San Pedro de la Paz","Gran Concepcion",4209.68556561777
+8110,"Talcahuano","Gran Concepcion",7564.15524261328
+8111,"Tomé","Gran Concepcion",5219.92888064317
+9101,"Temuco","Temuco",5260.97629683287
+9112,"Padre Las Casas","Temuco",5311.99525332103
+10101,"Puerto Montt","Puerto Montt - Varas",5601.63348872023
+10109,"Puerto Varas","Puerto Montt - Varas",4484.62929475588
+11101,"Coihaique","Coyhaique",5863.42509831963
+12101,"Punta Arenas","Punta Arenas",6341.79939733104
+13101,"Santiago","Gran Santiago",4606.97079261573
+13102,"Cerrillos","Gran Santiago",4771.11540941328
+13103,"Cerro Navia","Gran Santiago",5338.80481472093
+13104,"Conchalí","Gran Santiago",5550.24495160712
+13105,"El Bosque","Gran Santiago",4828.37276890389
+13106,"Estación Central","Gran Santiago",5486.86045815114
+13107,"Huechuraba","Gran Santiago",4903.83607588303
+13108,"Independencia","Gran Santiago",7901.91146123605
+13109,"La Cisterna","Gran Santiago",4434.26366869612
+13110,"La Florida","Gran Santiago",4068.85372018903
+13111,"La Granja","Gran Santiago",4016.50872702958
+13112,"La Pintana","Gran Santiago",4503.60603420221
+13113,"La Reina","Gran Santiago",3175.97482263829
+13114,"Las Condes","Gran Santiago",2898.10834768937
+13115,"Lo Barnechea","Gran Santiago",3469.21075455334
+13116,"Lo Espejo","Gran Santiago",5936.75712043059
+13117,"Lo Prado","Gran Santiago",4888.11831870953
+13118,"Macul","Gran Santiago",4237.25678774876
+13119,"Maipú","Gran Santiago",3370.30681009585
+13120,"Ñuñoa","Gran Santiago",2671.45778632208
+13121,"Pedro Aguirre Cerda","Gran Santiago",5070.36460847952
+13122,"Peñalolén","Gran Santiago",5063.33161282071
+13123,"Providencia","Gran Santiago",3974.1202927135
+13124,"Pudahuel","Gran Santiago",4280.81675329506
+13125,"Quilicura","Gran Santiago",3278.05687695431
+13126,"Quinta Normal","Gran Santiago",4851.07356698829
+13127,"Recoleta","Gran Santiago",6008.34436285213
+13128,"Renca","Gran Santiago",5437.06059840366
+13129,"San Joaquín","Gran Santiago",4928.41837210025
+13130,"San Miguel","Gran Santiago",7718.59270065318
+13131,"San Ramón","Gran Santiago",5492.84227785836
+13132,"Vitacura","Gran Santiago",2762.08492037118
+13201,"Puente Alto","Gran Santiago",3574.07558274699
+13401,"San Bernardo","Gran Santiago",5262.09205087377
+14101,"Valdivia","Valdivia",5375.26074555491
+15101,"Arica","Arica",4898.64864864865
+16101,"Chillán","Chillán",5716.93638564284
+16102,"Bulnes","Chillán",7728.87062435015
+16103,"Chillán Viejo","Chillán",4171.10874200426
+16301,"San Carlos","Chillán",5725.23753211271
+16305,"San Nicolás","Chillán",6177.08333333333
+1101,"Iquique","Iquique - Alto Hospicio",6484.73318154883
+1107,"Alto Hospicio","Iquique - Alto Hospicio",48.5527011010039
+2101,"Antofagasta","Antofagasta",5187.51825822418
+3101,"Copiapó","Copiapo",4949.16020185283
+4101,"La Serena","Gran Coquimbo",4372.69439204047
+4102,"Coquimbo","Gran Coquimbo",4395.24958466154
+5101,"Valparaíso","Valparaíso Metropolitano",6262.94708107244
+5103,"Concón","Valparaíso Metropolitano",3109.44527736132
+5109,"Viña del Mar","Valparaíso Metropolitano",4215.67322578159
+5801,"Quilpué","Valparaíso Metropolitano",4411.89142610944
+5804,"Villa Alemana","Valparaíso Metropolitano",4394.99304589708
+6101,"Rancagua","Rancagua - Machalí",5704.91468179305
+6108,"Machalí","Rancagua - Machalí",5218.81871960851
+7101,"Talca","Talca - Maule",9315.03329973716
+7105,"Maule","Talca - Maule",4920.93114625282
+8101,"Concepción","Gran Concepcion",5623.75040684428
+8102,"Coronel","Gran Concepcion",4830.69385780099
+8103,"Chiguayante","Gran Concepcion",4236.14516920059
+8106,"Lota","Gran Concepcion",6597.72885871979
+8107,"Penco","Gran Concepcion",6045.27938342967
+8108,"San Pedro de la Paz","Gran Concepcion",4141.4005300274
+8110,"Talcahuano","Gran Concepcion",1955.35483382638
+8111,"Tomé","Gran Concepcion",5199.37375572608
+8112,"Hualpén","Gran Concepcion",1614.55544432286
+9101,"Temuco","Temuco",4748.96449349965
+9112,"Padre Las Casas","Temuco",5166.06960496669
+10101,"Puerto Montt","Puerto Montt - Varas",5481.71602475303
+10109,"Puerto Varas","Puerto Montt - Varas",6018.66847265982
+11101,"Coihaique","Coyhaique",5309.99470764647
+12101,"Punta Arenas","Punta Arenas",5804.40127121185
+13101,"Santiago","Gran Santiago",4466.22578105167
+13102,"Cerrillos","Gran Santiago",5002.21827861579
+13103,"Cerro Navia","Gran Santiago",5818.27219130987
+13104,"Conchalí","Gran Santiago",6112.22143748028
+13105,"El Bosque","Gran Santiago",4784.64724497394
+13106,"Estación Central","Gran Santiago",5401.53756206532
+13107,"Huechuraba","Gran Santiago",4359.46022072568
+13108,"Independencia","Gran Santiago",8334.43732980054
+13109,"La Cisterna","Gran Santiago",4312.4940070956
+13110,"La Florida","Gran Santiago",3916.62427300601
+13111,"La Granja","Gran Santiago",5504.43081117928
+13112,"La Pintana","Gran Santiago",5430.51315713164
+13113,"La Reina","Gran Santiago",3583.19780878199
+13114,"Las Condes","Gran Santiago",2400.97334512642
+13115,"Lo Barnechea","Gran Santiago",3932.93105403056
+13116,"Lo Espejo","Gran Santiago",6410.52355024868
+13117,"Lo Prado","Gran Santiago",5235.71835446093
+13118,"Macul","Gran Santiago",3618.72283641149
+13119,"Maipú","Gran Santiago",3490.25570488706
+13120,"Ñuñoa","Gran Santiago",3005.02207435706
+13121,"Pedro Aguirre Cerda","Gran Santiago",4975.58245547522
+13122,"Peñalolén","Gran Santiago",4623.00545161466
+13123,"Providencia","Gran Santiago",3375.15043215054
+13124,"Pudahuel","Gran Santiago",4638.87578518758
+13125,"Quilicura","Gran Santiago",4234.43275518908
+13126,"Quinta Normal","Gran Santiago",5216.25189081905
+13127,"Recoleta","Gran Santiago",5866.18592469132
+13128,"Renca","Gran Santiago",4611.11438331959
+13129,"San Joaquín","Gran Santiago",4943.7617163091
+13130,"San Miguel","Gran Santiago",4468.11240857179
+13131,"San Ramón","Gran Santiago",5924.10505256885
+13132,"Vitacura","Gran Santiago",2899.97448328655
+13201,"Puente Alto","Gran Santiago",4094.83392879215
+13401,"San Bernardo","Gran Santiago",5225.07191450663
+14101,"Valdivia","Valdivia",5261.8990672088
+15101,"Arica","Arica",5005.2929288609
+16101,"Chillán","Chillán",6583.35315536201
+16102,"Bulnes","Chillán",4702.14771092704
+16103,"Chillán Viejo","Chillán",385.181338180559
+16301,"San Carlos","Chillán",5671.27032375201
+16305,"San Nicolás","Chillán",4762.39456901872
+1101,"Iquique","Iquique - Alto Hospicio",5152.9178685573
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3186.08157329455
+2101,"Antofagasta","Antofagasta",4752.78378753895
+3101,"Copiapó","Copiapo",4482.99400486734
+4101,"La Serena","Gran Coquimbo",3833.46879159452
+4102,"Coquimbo","Gran Coquimbo",4478.10130805425
+5101,"Valparaíso","Valparaíso Metropolitano",4905.70094947855
+5103,"Concón","Valparaíso Metropolitano",3173.10527867886
+5109,"Viña del Mar","Valparaíso Metropolitano",4389.83180481293
+5801,"Quilpué","Valparaíso Metropolitano",3927.33081074375
+5804,"Villa Alemana","Valparaíso Metropolitano",3741.29695595855
+6101,"Rancagua","Rancagua - Machalí",6089.99385502479
+6108,"Machalí","Rancagua - Machalí",4557.36450083905
+7101,"Talca","Talca - Maule",4896.82344250185
+7105,"Maule","Talca - Maule",3260.91845454954
+8101,"Concepción","Gran Concepcion",4580.02476192249
+8102,"Coronel","Gran Concepcion",4508.92059774951
+8103,"Chiguayante","Gran Concepcion",3858.20986898494
+8106,"Lota","Gran Concepcion",6049.62364092556
+8107,"Penco","Gran Concepcion",5318.40294517246
+8108,"San Pedro de la Paz","Gran Concepcion",4232.11498089035
+8110,"Talcahuano","Gran Concepcion",4934.26930440332
+8111,"Tomé","Gran Concepcion",4837.8686340022
+8112,"Hualpén","Gran Concepcion",4579.68323954284
+9101,"Temuco","Temuco",4435.12955090603
+9112,"Padre Las Casas","Temuco",4802.23285486443
+10101,"Puerto Montt","Puerto Montt - Varas",6554.33928283286
+10109,"Puerto Varas","Puerto Montt - Varas",4016.35332392825
+11101,"Coihaique","Coyhaique",3976.83248101658
+12101,"Punta Arenas","Punta Arenas",5433.25407174452
+13101,"Santiago","Gran Santiago",4073.33553535675
+13102,"Cerrillos","Gran Santiago",5121.97132025713
+13103,"Cerro Navia","Gran Santiago",5573.66317050409
+13104,"Conchalí","Gran Santiago",4803.48684110961
+13105,"El Bosque","Gran Santiago",4907.13541727621
+13106,"Estación Central","Gran Santiago",5578.75162275008
+13107,"Huechuraba","Gran Santiago",3997.99473618248
+13108,"Independencia","Gran Santiago",6602.72749528377
+13109,"La Cisterna","Gran Santiago",3530.56281395044
+13110,"La Florida","Gran Santiago",3813.74490743164
+13111,"La Granja","Gran Santiago",4726.2865003439
+13112,"La Pintana","Gran Santiago",5108.99002051016
+13113,"La Reina","Gran Santiago",3061.91514734795
+13114,"Las Condes","Gran Santiago",2862.72602095924
+13115,"Lo Barnechea","Gran Santiago",2638.78822127492
+13116,"Lo Espejo","Gran Santiago",5053.66890134447
+13117,"Lo Prado","Gran Santiago",4117.54389383635
+13118,"Macul","Gran Santiago",4109.77975367309
+13119,"Maipú","Gran Santiago",3351.54804515277
+13120,"Ñuñoa","Gran Santiago",2875.83971787963
+13121,"Pedro Aguirre Cerda","Gran Santiago",5500.15964968298
+13122,"Peñalolén","Gran Santiago",4769.31029058139
+13123,"Providencia","Gran Santiago",3980.52562773295
+13124,"Pudahuel","Gran Santiago",4551.36604781045
+13125,"Quilicura","Gran Santiago",4594.2068588605
+13126,"Quinta Normal","Gran Santiago",5307.41445605313
+13127,"Recoleta","Gran Santiago",5060.11679835108
+13128,"Renca","Gran Santiago",5409.82768318249
+13129,"San Joaquín","Gran Santiago",5114.70871954033
+13130,"San Miguel","Gran Santiago",4513.07009181677
+13131,"San Ramón","Gran Santiago",4724.41794006319
+13132,"Vitacura","Gran Santiago",2504.97423600837
+13201,"Puente Alto","Gran Santiago",3845.46051904704
+13401,"San Bernardo","Gran Santiago",4750.48703731455
+14101,"Valdivia","Valdivia",4495.34567513858
+15101,"Arica","Arica",4552.29017738946
+16101,"Chillán","Chillán",4660.92455298735
+16102,"Bulnes","Chillán",6394.16637730046
+16103,"Chillán Viejo","Chillán",3447.11193620522
+16301,"San Carlos","Chillán",6375.03823799327
+16305,"San Nicolás","Chillán",8604.55655004068
+1101,"Iquique","Iquique - Alto Hospicio",5478.86828111393
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3228.88318030369
+2101,"Antofagasta","Antofagasta",4923.70169023082
+3101,"Copiapó","Copiapo",4672.19346726321
+4101,"La Serena","Gran Coquimbo",3875.12771815993
+4102,"Coquimbo","Gran Coquimbo",3888.46309904874
+5101,"Valparaíso","Valparaíso Metropolitano",5479.59885005654
+5103,"Concón","Valparaíso Metropolitano",4816.62024141133
+5109,"Viña del Mar","Valparaíso Metropolitano",4338.54073225597
+5801,"Quilpué","Valparaíso Metropolitano",3942.31949901768
+5804,"Villa Alemana","Valparaíso Metropolitano",3248.09608080969
+6101,"Rancagua","Rancagua - Machalí",5656.9979976854
+6108,"Machalí","Rancagua - Machalí",3334.83045138109
+7101,"Talca","Talca - Maule",4341.27400978799
+7105,"Maule","Talca - Maule",2437.71433293393
+8101,"Concepción","Gran Concepcion",4842.57780302783
+8102,"Coronel","Gran Concepcion",4370.22770157309
+8103,"Chiguayante","Gran Concepcion",4327.10520205785
+8106,"Lota","Gran Concepcion",6631.04624139354
+8107,"Penco","Gran Concepcion",4483.17439438781
+8108,"San Pedro de la Paz","Gran Concepcion",4539.62209482812
+8110,"Talcahuano","Gran Concepcion",4884.29224509798
+8111,"Tomé","Gran Concepcion",3872.03764052527
+8112,"Hualpén","Gran Concepcion",4548.5568858812
+9101,"Temuco","Temuco",5129.2522883722
+9112,"Padre Las Casas","Temuco",4416.15121353889
+10101,"Puerto Montt","Puerto Montt - Varas",6658.62264763141
+10109,"Puerto Varas","Puerto Montt - Varas",4941.15659665522
+11101,"Coihaique","Coyhaique",4905.83406850524
+12101,"Punta Arenas","Punta Arenas",5750.27335836646
+13101,"Santiago","Gran Santiago",3536.07828727252
+13102,"Cerrillos","Gran Santiago",4287.21188275177
+13103,"Cerro Navia","Gran Santiago",5233.90230704904
+13104,"Conchalí","Gran Santiago",4517.00452081634
+13105,"El Bosque","Gran Santiago",4965.37836501095
+13106,"Estación Central","Gran Santiago",6122.59169901046
+13107,"Huechuraba","Gran Santiago",4628.34477423158
+13108,"Independencia","Gran Santiago",6416.17196072363
+13109,"La Cisterna","Gran Santiago",4121.45700873492
+13110,"La Florida","Gran Santiago",3709.11037645773
+13111,"La Granja","Gran Santiago",4565.46435671684
+13112,"La Pintana","Gran Santiago",5700.23548968001
+13113,"La Reina","Gran Santiago",2998.15448374111
+13114,"Las Condes","Gran Santiago",2611.74652114709
+13115,"Lo Barnechea","Gran Santiago",2670.16773976955
+13116,"Lo Espejo","Gran Santiago",5966.62468513854
+13117,"Lo Prado","Gran Santiago",5080.89500860585
+13118,"Macul","Gran Santiago",3907.40345240638
+13119,"Maipú","Gran Santiago",3328.36228358616
+13120,"Ñuñoa","Gran Santiago",3111.89407978153
+13121,"Pedro Aguirre Cerda","Gran Santiago",5510.77995610557
+13122,"Peñalolén","Gran Santiago",4510.778103643
+13123,"Providencia","Gran Santiago",4061.56477126977
+13124,"Pudahuel","Gran Santiago",4711.37891887171
+13125,"Quilicura","Gran Santiago",4466.87962561291
+13126,"Quinta Normal","Gran Santiago",5044.34535715331
+13127,"Recoleta","Gran Santiago",5347.32357152244
+13128,"Renca","Gran Santiago",5571.4306435938
+13129,"San Joaquín","Gran Santiago",4241.82296009372
+13130,"San Miguel","Gran Santiago",4325.80894343833
+13131,"San Ramón","Gran Santiago",4699.33647424055
+13132,"Vitacura","Gran Santiago",3283.76861864926
+13201,"Puente Alto","Gran Santiago",3780.19906673103
+13401,"San Bernardo","Gran Santiago",5384.03001518175
+14101,"Valdivia","Valdivia",4954.3135980979
+15101,"Arica","Arica",4792.0040671499
+16101,"Chillán","Chillán",5808.14005956141
+16102,"Bulnes","Chillán",6300.54075507268
+16103,"Chillán Viejo","Chillán",4425.68958419103
+16301,"San Carlos","Chillán",5459.91647142712
+16305,"San Nicolás","Chillán",2102.40418468967
+1101,"Iquique","Iquique - Alto Hospicio",5128.87729223566
+1107,"Alto Hospicio","Iquique - Alto Hospicio",4365.22505323445
+2101,"Antofagasta","Antofagasta",5837.5349420868
+3101,"Copiapó","Copiapo",4714.18794798833
+4101,"La Serena","Gran Coquimbo",4961.43246011669
+4102,"Coquimbo","Gran Coquimbo",4484.13158606827
+5101,"Valparaíso","Valparaíso Metropolitano",5468.92547194474
+5103,"Concón","Valparaíso Metropolitano",3129.72957537337
+5109,"Viña del Mar","Valparaíso Metropolitano",4295.86264742635
+5801,"Quilpué","Valparaíso Metropolitano",4862.02365308804
+5804,"Villa Alemana","Valparaíso Metropolitano",4077.1274517465
+6101,"Rancagua","Rancagua - Machalí",5500.67047973509
+6108,"Machalí","Rancagua - Machalí",3924.88262910798
+7101,"Talca","Talca - Maule",4315.27315229139
+7105,"Maule","Talca - Maule",5005.7099352874
+8101,"Concepción","Gran Concepcion",4278.79177198397
+8102,"Coronel","Gran Concepcion",4949.83664382571
+8103,"Chiguayante","Gran Concepcion",4567.44537466945
+8106,"Lota","Gran Concepcion",7933.68467281511
+8107,"Penco","Gran Concepcion",4322.28651586884
+8108,"San Pedro de la Paz","Gran Concepcion",5164.56251183276
+8110,"Talcahuano","Gran Concepcion",4935.05986719304
+8111,"Tomé","Gran Concepcion",5001.63514995287
+8112,"Hualpén","Gran Concepcion",4992.27523231951
+9101,"Temuco","Temuco",4955.69361403782
+9112,"Padre Las Casas","Temuco",5267.79367679328
+10101,"Puerto Montt","Puerto Montt - Varas",6152.43887364335
+10109,"Puerto Varas","Puerto Montt - Varas",6460.76702666961
+11101,"Coihaique","Coyhaique",4474.77834943899
+12101,"Punta Arenas","Punta Arenas",6225.87442056469
+13101,"Santiago","Gran Santiago",4084.59556512822
+13102,"Cerrillos","Gran Santiago",4682.183939083
+13103,"Cerro Navia","Gran Santiago",5880.89312430424
+13104,"Conchalí","Gran Santiago",5831.0291858679
+13105,"El Bosque","Gran Santiago",5614.20970933608
+13106,"Estación Central","Gran Santiago",5430.05253211741
+13107,"Huechuraba","Gran Santiago",5842.48290474815
+13108,"Independencia","Gran Santiago",6565.95481700199
+13109,"La Cisterna","Gran Santiago",4232.82302655726
+13110,"La Florida","Gran Santiago",3486.40842442752
+13111,"La Granja","Gran Santiago",5069.64187591084
+13112,"La Pintana","Gran Santiago",5788.7437820935
+13113,"La Reina","Gran Santiago",3215.03312622665
+13114,"Las Condes","Gran Santiago",2598.5238147351
+13115,"Lo Barnechea","Gran Santiago",2522.51408228033
+13116,"Lo Espejo","Gran Santiago",5111.71039571512
+13117,"Lo Prado","Gran Santiago",5402.64124714527
+13118,"Macul","Gran Santiago",4094.98357552475
+13119,"Maipú","Gran Santiago",3455.7156809418
+13120,"Ñuñoa","Gran Santiago",2914.22517761272
+13121,"Pedro Aguirre Cerda","Gran Santiago",4823.64565079602
+13122,"Peñalolén","Gran Santiago",4340.69271939588
+13123,"Providencia","Gran Santiago",3667.81276655616
+13124,"Pudahuel","Gran Santiago",4079.79241310176
+13125,"Quilicura","Gran Santiago",4547.38254863604
+13126,"Quinta Normal","Gran Santiago",4663.87622978074
+13127,"Recoleta","Gran Santiago",5408.16468267748
+13128,"Renca","Gran Santiago",4530.06598092604
+13129,"San Joaquín","Gran Santiago",5059.20458769182
+13130,"San Miguel","Gran Santiago",4972.30946273165
+13131,"San Ramón","Gran Santiago",5892.77998737024
+13132,"Vitacura","Gran Santiago",2633.15608941254
+13201,"Puente Alto","Gran Santiago",4263.74275538624
+13401,"San Bernardo","Gran Santiago",5754.89899724962
+14101,"Valdivia","Valdivia",5214.05575724365
+15101,"Arica","Arica",4452.46690734055
+16101,"Chillán","Chillán",5176.05023690453
+16102,"Bulnes","Chillán",4648.16650148662
+16103,"Chillán Viejo","Chillán",5290.64395613225
+16301,"San Carlos","Chillán",6940.80084599272
+16305,"San Nicolás","Chillán",3904.38247011952
+1101,"Iquique","Iquique - Alto Hospicio",6525.88866613045
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3463.85364065327
+2101,"Antofagasta","Antofagasta",5583.6521178771
+3101,"Copiapó","Copiapo",5056.67452629187
+4101,"La Serena","Gran Coquimbo",5001.44149738313
+4102,"Coquimbo","Gran Coquimbo",3901.3707518858
+5101,"Valparaíso","Valparaíso Metropolitano",5536.73062254298
+5103,"Concón","Valparaíso Metropolitano",3657.61159648285
+5109,"Viña del Mar","Valparaíso Metropolitano",4535.39146910419
+5801,"Quilpué","Valparaíso Metropolitano",4445.81382590987
+5804,"Villa Alemana","Valparaíso Metropolitano",4060.48510899601
+6101,"Rancagua","Rancagua - Machalí",6362.98230292719
+6108,"Machalí","Rancagua - Machalí",3916.68378878159
+7101,"Talca","Talca - Maule",5290.29933238214
+7105,"Maule","Talca - Maule",3400.37977354244
+8101,"Concepción","Gran Concepcion",4931.93244871097
+8102,"Coronel","Gran Concepcion",4151.2555503789
+8103,"Chiguayante","Gran Concepcion",3956.65536887885
+8106,"Lota","Gran Concepcion",7055.24874132233
+8107,"Penco","Gran Concepcion",4462.4079915878
+8108,"San Pedro de la Paz","Gran Concepcion",4555.33330768935
+8110,"Talcahuano","Gran Concepcion",5113.46881000282
+8111,"Tomé","Gran Concepcion",5009.02007446359
+8112,"Hualpén","Gran Concepcion",4612.3785989311
+9101,"Temuco","Temuco",4878.02051341485
+9112,"Padre Las Casas","Temuco",5219.28290004107
+10101,"Puerto Montt","Puerto Montt - Varas",5863.88495037472
+10109,"Puerto Varas","Puerto Montt - Varas",5320.03773076405
+11101,"Coihaique","Coyhaique",5792.39079379991
+12101,"Punta Arenas","Punta Arenas",5980.20829844948
+13101,"Santiago","Gran Santiago",3721.88482261172
+13102,"Cerrillos","Gran Santiago",4610.27570600287
+13103,"Cerro Navia","Gran Santiago",5165.28630076242
+13104,"Conchalí","Gran Santiago",5547.2611800017
+13105,"El Bosque","Gran Santiago",5580.15890518737
+13106,"Estación Central","Gran Santiago",4984.96800883932
+13107,"Huechuraba","Gran Santiago",4413.32735129519
+13108,"Independencia","Gran Santiago",6382.12416156802
+13109,"La Cisterna","Gran Santiago",3571.63920310454
+13110,"La Florida","Gran Santiago",3937.45019038342
+13111,"La Granja","Gran Santiago",5798.24300537708
+13112,"La Pintana","Gran Santiago",5300.15759551202
+13113,"La Reina","Gran Santiago",3868.64891357621
+13114,"Las Condes","Gran Santiago",2399.18755970874
+13115,"Lo Barnechea","Gran Santiago",2466.84744676713
+13116,"Lo Espejo","Gran Santiago",6044.94424565987
+13117,"Lo Prado","Gran Santiago",5765.33782294109
+13118,"Macul","Gran Santiago",3880.9592175097
+13119,"Maipú","Gran Santiago",3516.62160236221
+13120,"Ñuñoa","Gran Santiago",2685.1237095836
+13121,"Pedro Aguirre Cerda","Gran Santiago",4848.2964553838
+13122,"Peñalolén","Gran Santiago",4577.38879174026
+13123,"Providencia","Gran Santiago",3291.61354115167
+13124,"Pudahuel","Gran Santiago",4507.56318459861
+13125,"Quilicura","Gran Santiago",3970.97150251161
+13126,"Quinta Normal","Gran Santiago",4826.77019058702
+13127,"Recoleta","Gran Santiago",5423.22430783996
+13128,"Renca","Gran Santiago",4677.85210889708
+13129,"San Joaquín","Gran Santiago",4802.64001025247
+13130,"San Miguel","Gran Santiago",4275.65686975061
+13131,"San Ramón","Gran Santiago",5184.10417602155
+13132,"Vitacura","Gran Santiago",2590.74624201548
+13201,"Puente Alto","Gran Santiago",4257.72038180797
+13401,"San Bernardo","Gran Santiago",4749.57044515495
+14101,"Valdivia","Valdivia",5279.29871698318
+15101,"Arica","Arica",4915.21862781772
+16101,"Chillán","Chillán",5564.98314900081
+16102,"Bulnes","Chillán",7346.17098163457
+16103,"Chillán Viejo","Chillán",4357.71719945087
+16301,"San Carlos","Chillán",4955.4577000345
+16305,"San Nicolás","Chillán",5472.83305393945
+1101,"Iquique","Iquique - Alto Hospicio",5948.10685688641
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3538.13025450714
+2101,"Antofagasta","Antofagasta",5392.05316143805
+3101,"Copiapó","Copiapo",5429.2876248092
+4101,"La Serena","Gran Coquimbo",4988.46644413688
+4102,"Coquimbo","Gran Coquimbo",4031.72469986931
+5101,"Valparaíso","Valparaíso Metropolitano",5651.40080108369
+5103,"Concón","Valparaíso Metropolitano",2704.12254264938
+5109,"Viña del Mar","Valparaíso Metropolitano",4397.95018215366
+5801,"Quilpué","Valparaíso Metropolitano",3599.75912392479
+5804,"Villa Alemana","Valparaíso Metropolitano",4220.54665409991
+6101,"Rancagua","Rancagua - Machalí",5797.20549567902
+6108,"Machalí","Rancagua - Machalí",3678.42712131664
+7101,"Talca","Talca - Maule",5442.89563986739
+7105,"Maule","Talca - Maule",3089.25603675824
+8101,"Concepción","Gran Concepcion",4606.70243154741
+8102,"Coronel","Gran Concepcion",4770.70762994173
+8103,"Chiguayante","Gran Concepcion",4380.51650866296
+8106,"Lota","Gran Concepcion",7263.04484023986
+8107,"Penco","Gran Concepcion",4818.90797680271
+8108,"San Pedro de la Paz","Gran Concepcion",4770.58249267816
+8110,"Talcahuano","Gran Concepcion",5554.45635972722
+8111,"Tomé","Gran Concepcion",5033.3001607594
+8112,"Hualpén","Gran Concepcion",4614.76771495675
+9101,"Temuco","Temuco",4592.55003351527
+9112,"Padre Las Casas","Temuco",5411.2327249315
+10101,"Puerto Montt","Puerto Montt - Varas",5999.45395319061
+10109,"Puerto Varas","Puerto Montt - Varas",4052.62880345937
+11101,"Coihaique","Coyhaique",5772.16130830701
+12101,"Punta Arenas","Punta Arenas",5300.80002661211
+13101,"Santiago","Gran Santiago",3340.10969019031
+13102,"Cerrillos","Gran Santiago",4510.60889898628
+13103,"Cerro Navia","Gran Santiago",6429.59199872996
+13104,"Conchalí","Gran Santiago",4998.90870541282
+13105,"El Bosque","Gran Santiago",5925.07301393112
+13106,"Estación Central","Gran Santiago",5847.54288226293
+13107,"Huechuraba","Gran Santiago",4873.15880355549
+13108,"Independencia","Gran Santiago",7336.20002352603
+13109,"La Cisterna","Gran Santiago",4119.7356973217
+13110,"La Florida","Gran Santiago",4023.00602024109
+13111,"La Granja","Gran Santiago",5438.40717872993
+13112,"La Pintana","Gran Santiago",5660.23466367035
+13113,"La Reina","Gran Santiago",3250.62659384679
+13114,"Las Condes","Gran Santiago",2299.28472882117
+13115,"Lo Barnechea","Gran Santiago",2519.55988851703
+13116,"Lo Espejo","Gran Santiago",5343.19730495368
+13117,"Lo Prado","Gran Santiago",5061.21622988971
+13118,"Macul","Gran Santiago",4047.61024655306
+13119,"Maipú","Gran Santiago",3492.92045631258
+13120,"Ñuñoa","Gran Santiago",3080.00392430704
+13121,"Pedro Aguirre Cerda","Gran Santiago",5197.81004522733
+13122,"Peñalolén","Gran Santiago",4166.10129430148
+13123,"Providencia","Gran Santiago",3722.5302936948
+13124,"Pudahuel","Gran Santiago",4162.93454762028
+13125,"Quilicura","Gran Santiago",3936.88255959258
+13126,"Quinta Normal","Gran Santiago",4599.38479566427
+13127,"Recoleta","Gran Santiago",6605.68328058154
+13128,"Renca","Gran Santiago",4966.29405239355
+13129,"San Joaquín","Gran Santiago",5105.89852644241
+13130,"San Miguel","Gran Santiago",4175.87703725762
+13131,"San Ramón","Gran Santiago",5649.28047323815
+13132,"Vitacura","Gran Santiago",2232.39912745086
+13201,"Puente Alto","Gran Santiago",3887.36919643022
+13401,"San Bernardo","Gran Santiago",4916.36089123105
+14101,"Valdivia","Valdivia",5403.13531020488
+15101,"Arica","Arica",4783.23136326142
+16101,"Chillán","Chillán",4876.78431511167
+16102,"Bulnes","Chillán",7788.8702184442
+16103,"Chillán Viejo","Chillán",3778.35683629675
+16301,"San Carlos","Chillán",5432.64851735654
+16305,"San Nicolás","Chillán",6341.60641000586
+1101,"Iquique","Iquique - Alto Hospicio",5210.68166500105
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3311.40545826296
+2101,"Antofagasta","Antofagasta",5148.14951025462
+3101,"Copiapó","Copiapo",4699.83084199261
+4101,"La Serena","Gran Coquimbo",4140.76695036817
+4102,"Coquimbo","Gran Coquimbo",4230.16398873613
+5101,"Valparaíso","Valparaíso Metropolitano",5367.30249788238
+5103,"Concón","Valparaíso Metropolitano",4373.74122257906
+5109,"Viña del Mar","Valparaíso Metropolitano",4437.91526159394
+5801,"Quilpué","Valparaíso Metropolitano",3709.56114927986
+5804,"Villa Alemana","Valparaíso Metropolitano",3492.4427650589
+6101,"Rancagua","Rancagua - Machalí",5285.07367072389
+6108,"Machalí","Rancagua - Machalí",2846.85708872152
+7101,"Talca","Talca - Maule",5171.14118242999
+7105,"Maule","Talca - Maule",3383.20814150715
+8101,"Concepción","Gran Concepcion",5488.61059981547
+8102,"Coronel","Gran Concepcion",4463.78100877559
+8103,"Chiguayante","Gran Concepcion",4973.09557705765
+8106,"Lota","Gran Concepcion",6528.35719923328
+8107,"Penco","Gran Concepcion",5282.25189588478
+8108,"San Pedro de la Paz","Gran Concepcion",3212.52949546986
+8110,"Talcahuano","Gran Concepcion",5503.68680706594
+8111,"Tomé","Gran Concepcion",5001.90839694656
+8112,"Hualpén","Gran Concepcion",4048.42117284303
+9101,"Temuco","Temuco",4714.17444003268
+9112,"Padre Las Casas","Temuco",4096.86172722983
+10101,"Puerto Montt","Puerto Montt - Varas",5399.80760999139
+10109,"Puerto Varas","Puerto Montt - Varas",4786.62946889853
+11101,"Coihaique","Coyhaique",4459.91234854344
+12101,"Punta Arenas","Punta Arenas",5966.08041238817
+13101,"Santiago","Gran Santiago",3352.6410679351
+13102,"Cerrillos","Gran Santiago",4336.06838508825
+13103,"Cerro Navia","Gran Santiago",5222.72306896878
+13104,"Conchalí","Gran Santiago",5147.90807307012
+13105,"El Bosque","Gran Santiago",5198.70847038233
+13106,"Estación Central","Gran Santiago",5784.89656725005
+13107,"Huechuraba","Gran Santiago",4972.7908194631
+13108,"Independencia","Gran Santiago",7378.46224571888
+13109,"La Cisterna","Gran Santiago",4291.54354861404
+13110,"La Florida","Gran Santiago",3816.31107498634
+13111,"La Granja","Gran Santiago",3996.19877771042
+13112,"La Pintana","Gran Santiago",5437.13549437135
+13113,"La Reina","Gran Santiago",2950.9170728487
+13114,"Las Condes","Gran Santiago",2628.38641573644
+13115,"Lo Barnechea","Gran Santiago",2701.25086332591
+13116,"Lo Espejo","Gran Santiago",5935.98466884116
+13117,"Lo Prado","Gran Santiago",4612.7271612257
+13118,"Macul","Gran Santiago",3666.73118933717
+13119,"Maipú","Gran Santiago",3504.05167119054
+13120,"Ñuñoa","Gran Santiago",2897.34254312838
+13121,"Pedro Aguirre Cerda","Gran Santiago",5160.19716574245
+13122,"Peñalolén","Gran Santiago",4494.38202247191
+13123,"Providencia","Gran Santiago",3618.47660868097
+13124,"Pudahuel","Gran Santiago",4193.94805592549
+13125,"Quilicura","Gran Santiago",3987.15989691427
+13126,"Quinta Normal","Gran Santiago",5006.18588838125
+13127,"Recoleta","Gran Santiago",5536.78913493751
+13128,"Renca","Gran Santiago",5192.40832143009
+13129,"San Joaquín","Gran Santiago",4760.2073882048
+13130,"San Miguel","Gran Santiago",8152.79489190098
+13131,"San Ramón","Gran Santiago",5477.01957890367
+13132,"Vitacura","Gran Santiago",2209.70481920016
+13201,"Puente Alto","Gran Santiago",4166.56748011844
+13401,"San Bernardo","Gran Santiago",4488.73874680719
+14101,"Valdivia","Valdivia",5586.2986365148
+15101,"Arica","Arica",4706.65827262644
+16101,"Chillán","Chillán",5292.6583818952
+16102,"Bulnes","Chillán",4905.25069088038
+16103,"Chillán Viejo","Chillán",4086.83588916801
+16301,"San Carlos","Chillán",5572.26787264541
+16305,"San Nicolás","Chillán",5845.28887165568
+1101,"Iquique","Iquique - Alto Hospicio",5893.19756623783
+1107,"Alto Hospicio","Iquique - Alto Hospicio",2810.5616815989
+2101,"Antofagasta","Antofagasta",4922.60977700508
+3101,"Copiapó","Copiapo",5415.41814219559
+4101,"La Serena","Gran Coquimbo",3929.35683946201
+4102,"Coquimbo","Gran Coquimbo",4153.14434999215
+5101,"Valparaíso","Valparaíso Metropolitano",5525.47574755159
+5103,"Concón","Valparaíso Metropolitano",3558.22303199185
+5109,"Viña del Mar","Valparaíso Metropolitano",3911.36361379009
+5801,"Quilpué","Valparaíso Metropolitano",4168.48601286642
+5804,"Villa Alemana","Valparaíso Metropolitano",4046.49003849899
+6101,"Rancagua","Rancagua - Machalí",5228.75528719561
+6108,"Machalí","Rancagua - Machalí",4070.27150353639
+7101,"Talca","Talca - Maule",4494.93227833819
+7105,"Maule","Talca - Maule",3698.15798395299
+8101,"Concepción","Gran Concepcion",4400.74949686553
+8102,"Coronel","Gran Concepcion",3921.67632438964
+8103,"Chiguayante","Gran Concepcion",3457.06317915184
+8106,"Lota","Gran Concepcion",5542.43676490623
+8107,"Penco","Gran Concepcion",5653.50207287803
+8108,"San Pedro de la Paz","Gran Concepcion",3776.206664511
+8110,"Talcahuano","Gran Concepcion",4817.69619140235
+8111,"Tomé","Gran Concepcion",3902.65250979944
+8112,"Hualpén","Gran Concepcion",3446.62735902748
+9101,"Temuco","Temuco",4819.92184114231
+9112,"Padre Las Casas","Temuco",4696.19278648519
+10101,"Puerto Montt","Puerto Montt - Varas",5200.87747352489
+10109,"Puerto Varas","Puerto Montt - Varas",4598.05038612483
+11101,"Coihaique","Coyhaique",5860.57201225741
+12101,"Punta Arenas","Punta Arenas",5642.13185479241
+13101,"Santiago","Gran Santiago",3563.74526341523
+13102,"Cerrillos","Gran Santiago",4091.44504126818
+13103,"Cerro Navia","Gran Santiago",5421.31054800861
+13104,"Conchalí","Gran Santiago",4837.63714950682
+13105,"El Bosque","Gran Santiago",4979.01367300205
+13106,"Estación Central","Gran Santiago",5266.52504490613
+13107,"Huechuraba","Gran Santiago",4876.60259995973
+13108,"Independencia","Gran Santiago",5445.93822221118
+13109,"La Cisterna","Gran Santiago",3897.15167672232
+13110,"La Florida","Gran Santiago",4069.59467903412
+13111,"La Granja","Gran Santiago",5621.77901676772
+13112,"La Pintana","Gran Santiago",5812.87014890406
+13113,"La Reina","Gran Santiago",2686.14462494609
+13114,"Las Condes","Gran Santiago",2647.54829934094
+13115,"Lo Barnechea","Gran Santiago",2405.43557597355
+13116,"Lo Espejo","Gran Santiago",6052.12421339023
+13117,"Lo Prado","Gran Santiago",4990.04056020559
+13118,"Macul","Gran Santiago",3736.36873099431
+13119,"Maipú","Gran Santiago",3387.86404420238
+13120,"Ñuñoa","Gran Santiago",2997.10370947978
+13121,"Pedro Aguirre Cerda","Gran Santiago",4531.2545619106
+13122,"Peñalolén","Gran Santiago",4520.3606597096
+13123,"Providencia","Gran Santiago",3593.87094357839
+13124,"Pudahuel","Gran Santiago",4258.22156898769
+13125,"Quilicura","Gran Santiago",3904.52538631347
+13126,"Quinta Normal","Gran Santiago",5009.98700719452
+13127,"Recoleta","Gran Santiago",5241.91035433098
+13128,"Renca","Gran Santiago",5172.60782713896
+13129,"San Joaquín","Gran Santiago",5794.34787801144
+13130,"San Miguel","Gran Santiago",3787.4474421864
+13131,"San Ramón","Gran Santiago",5279.33613838242
+13132,"Vitacura","Gran Santiago",3090.93929287896
+13201,"Puente Alto","Gran Santiago",3977.4138290448
+13401,"San Bernardo","Gran Santiago",5056.05059941774
+14101,"Valdivia","Valdivia",4470.61611686405
+15101,"Arica","Arica",5186.56367386927
+16101,"Chillán","Chillán",4576.77336896532
+16102,"Bulnes","Chillán",4508.49963045085
+16103,"Chillán Viejo","Chillán",3522.93577981651
+16301,"San Carlos","Chillán",5511.93783468213
+16305,"San Nicolás","Chillán",4566.42953278216
+1101,"Iquique","Iquique - Alto Hospicio",5106.69791538177
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3209.34310226063
+2101,"Antofagasta","Antofagasta",4844.6961135366
+3101,"Copiapó","Copiapo",4968.02523014437
+4101,"La Serena","Gran Coquimbo",4557.31882915015
+4102,"Coquimbo","Gran Coquimbo",4221.76001584708
+5101,"Valparaíso","Valparaíso Metropolitano",4995.08237472665
+5103,"Concón","Valparaíso Metropolitano",3612.32782732598
+5109,"Viña del Mar","Valparaíso Metropolitano",3774.22288169812
+5801,"Quilpué","Valparaíso Metropolitano",3333.50132836068
+5804,"Villa Alemana","Valparaíso Metropolitano",3782.61375121868
+6101,"Rancagua","Rancagua - Machalí",5579.68067381237
+6108,"Machalí","Rancagua - Machalí",3779.48593705262
+7101,"Talca","Talca - Maule",4303.78415587892
+7105,"Maule","Talca - Maule",3388.17181548879
+8101,"Concepción","Gran Concepcion",3883.86733237572
+8102,"Coronel","Gran Concepcion",4318.53984464121
+8103,"Chiguayante","Gran Concepcion",3911.41788898476
+8106,"Lota","Gran Concepcion",6098.56450580598
+8107,"Penco","Gran Concepcion",4633.2214618838
+8108,"San Pedro de la Paz","Gran Concepcion",4274.43414107588
+8110,"Talcahuano","Gran Concepcion",4329.99484843011
+8111,"Tomé","Gran Concepcion",3905.59732664996
+8112,"Hualpén","Gran Concepcion",3895.41088580576
+9101,"Temuco","Temuco",3909.25269564957
+9112,"Padre Las Casas","Temuco",3541.62193114308
+10101,"Puerto Montt","Puerto Montt - Varas",5126.69936992507
+10109,"Puerto Varas","Puerto Montt - Varas",3684.65513814351
+11101,"Coihaique","Coyhaique",3405.69607647879
+12101,"Punta Arenas","Punta Arenas",4985.7074215537
+13101,"Santiago","Gran Santiago",3195.36176968485
+13102,"Cerrillos","Gran Santiago",4163.68392966381
+13103,"Cerro Navia","Gran Santiago",5476.64936990363
+13104,"Conchalí","Gran Santiago",5417.17512502094
+13105,"El Bosque","Gran Santiago",4645.84454336448
+13106,"Estación Central","Gran Santiago",5270.6656028626
+13107,"Huechuraba","Gran Santiago",4464.39376437066
+13108,"Independencia","Gran Santiago",6525.07274900687
+13109,"La Cisterna","Gran Santiago",4091.39151631075
+13110,"La Florida","Gran Santiago",3684.12858167583
+13111,"La Granja","Gran Santiago",4280.844806844
+13112,"La Pintana","Gran Santiago",5137.42291676926
+13113,"La Reina","Gran Santiago",3122.22123421661
+13114,"Las Condes","Gran Santiago",2240.2214392006
+13115,"Lo Barnechea","Gran Santiago",2451.00100942126
+13116,"Lo Espejo","Gran Santiago",6043.21103732222
+13117,"Lo Prado","Gran Santiago",4924.59378615277
+13118,"Macul","Gran Santiago",3592.77600300237
+13119,"Maipú","Gran Santiago",3224.89624604677
+13120,"Ñuñoa","Gran Santiago",3272.2677767506
+13121,"Pedro Aguirre Cerda","Gran Santiago",5643.93156843648
+13122,"Peñalolén","Gran Santiago",4291.5167891503
+13123,"Providencia","Gran Santiago",2887.9267932697
+13124,"Pudahuel","Gran Santiago",4262.17129652794
+13125,"Quilicura","Gran Santiago",4018.20573983549
+13126,"Quinta Normal","Gran Santiago",4276.75017108928
+13127,"Recoleta","Gran Santiago",5752.79444073306
+13128,"Renca","Gran Santiago",4730.94044852591
+13129,"San Joaquín","Gran Santiago",4870.59747741457
+13130,"San Miguel","Gran Santiago",3874.06091479206
+13131,"San Ramón","Gran Santiago",5618.08402246286
+13132,"Vitacura","Gran Santiago",2044.39102973892
+13201,"Puente Alto","Gran Santiago",3614.2133802564
+13401,"San Bernardo","Gran Santiago",4813.67707754514
+14101,"Valdivia","Valdivia",4296.23834669796
+15101,"Arica","Arica",5043.00746627079
+16101,"Chillán","Chillán",4759.87119262243
+16102,"Bulnes","Chillán",5202.2836893395
+16103,"Chillán Viejo","Chillán",4300.92059838895
+16301,"San Carlos","Chillán",5267.49136476825
+16305,"San Nicolás","Chillán",4056.11757969078
+1101,"Iquique","Iquique - Alto Hospicio",4896.8730677502
+1107,"Alto Hospicio","Iquique - Alto Hospicio",4009.69220163024
+2101,"Antofagasta","Antofagasta",4832.83671211385
+3101,"Copiapó","Copiapo",4597.13592716882
+4101,"La Serena","Gran Coquimbo",4963.35527200801
+4102,"Coquimbo","Gran Coquimbo",4028.92411780956
+5101,"Valparaíso","Valparaíso Metropolitano",5100.28221202525
+5103,"Concón","Valparaíso Metropolitano",3524.11441659509
+5109,"Viña del Mar","Valparaíso Metropolitano",4355.67724376212
+5801,"Quilpué","Valparaíso Metropolitano",3583.14786280888
+5804,"Villa Alemana","Valparaíso Metropolitano",3673.05254261164
+6101,"Rancagua","Rancagua - Machalí",4863.59633712028
+6108,"Machalí","Rancagua - Machalí",3631.79095888659
+7101,"Talca","Talca - Maule",4121.25308177777
+7105,"Maule","Talca - Maule",3015.77443795802
+8101,"Concepción","Gran Concepcion",4823.93001494934
+8102,"Coronel","Gran Concepcion",5085.97658281186
+8103,"Chiguayante","Gran Concepcion",3409.02296995133
+8106,"Lota","Gran Concepcion",5560.15833563472
+8107,"Penco","Gran Concepcion",4338.73497124935
+8108,"San Pedro de la Paz","Gran Concepcion",3836.78339990387
+8110,"Talcahuano","Gran Concepcion",4860.98510050606
+8111,"Tomé","Gran Concepcion",4000.68258091428
+8112,"Hualpén","Gran Concepcion",4037.7247273799
+9101,"Temuco","Temuco",4155.81907517242
+9112,"Padre Las Casas","Temuco",4602.73508137432
+10101,"Puerto Montt","Puerto Montt - Varas",5473.61847725686
+10109,"Puerto Varas","Puerto Montt - Varas",3892.74201426199
+11101,"Coihaique","Coyhaique",5030.94861091118
+12101,"Punta Arenas","Punta Arenas",4756.16074608983
+13101,"Santiago","Gran Santiago",3028.77876746394
+13102,"Cerrillos","Gran Santiago",4777.63527781016
+13103,"Cerro Navia","Gran Santiago",5262.88188669633
+13104,"Conchalí","Gran Santiago",4827.99171976061
+13105,"El Bosque","Gran Santiago",4709.12250003081
+13106,"Estación Central","Gran Santiago",5107.05650292695
+13107,"Huechuraba","Gran Santiago",4902.24781236785
+13108,"Independencia","Gran Santiago",6068.4641161356
+13109,"La Cisterna","Gran Santiago",4032.07945259771
+13110,"La Florida","Gran Santiago",3534.94256589177
+13111,"La Granja","Gran Santiago",4433.57659301304
+13112,"La Pintana","Gran Santiago",5688.00378283867
+13113,"La Reina","Gran Santiago",2930.4767341639
+13114,"Las Condes","Gran Santiago",2324.9497943961
+13115,"Lo Barnechea","Gran Santiago",2622.24565974915
+13116,"Lo Espejo","Gran Santiago",5920.25492770034
+13117,"Lo Prado","Gran Santiago",4657.12387000137
+13118,"Macul","Gran Santiago",3656.40899167877
+13119,"Maipú","Gran Santiago",3595.69991529426
+13120,"Ñuñoa","Gran Santiago",2520.70967672437
+13121,"Pedro Aguirre Cerda","Gran Santiago",5593.95979839433
+13122,"Peñalolén","Gran Santiago",3902.25502676799
+13123,"Providencia","Gran Santiago",2977.05407004547
+13124,"Pudahuel","Gran Santiago",3924.39040895044
+13125,"Quilicura","Gran Santiago",3704.53221241885
+13126,"Quinta Normal","Gran Santiago",5322.14230152404
+13127,"Recoleta","Gran Santiago",5909.35957882583
+13128,"Renca","Gran Santiago",5211.45823159246
+13129,"San Joaquín","Gran Santiago",4557.83508324913
+13130,"San Miguel","Gran Santiago",3860.22666512901
+13131,"San Ramón","Gran Santiago",5782.13298064206
+13132,"Vitacura","Gran Santiago",1936.82535200421
+13201,"Puente Alto","Gran Santiago",3678.74217644074
+13401,"San Bernardo","Gran Santiago",4848.44084404291
+14101,"Valdivia","Valdivia",4553.17966513515
+15101,"Arica","Arica",5186.33674482878
+16101,"Chillán","Chillán",4206.13564514926
+16102,"Bulnes","Chillán",6117.23052714398
+16103,"Chillán Viejo","Chillán",4112.39366020686
+16301,"San Carlos","Chillán",4298.1436189407
+16305,"San Nicolás","Chillán",3718.45949535193
+1101,"Iquique","Iquique - Alto Hospicio",5271.22263457892
+1107,"Alto Hospicio","Iquique - Alto Hospicio",4115.44102448003
+2101,"Antofagasta","Antofagasta",4798.19557005544
+3101,"Copiapó","Copiapo",4431.60176003152
+4101,"La Serena","Gran Coquimbo",4454.61464899783
+4102,"Coquimbo","Gran Coquimbo",3721.67594002438
+5101,"Valparaíso","Valparaíso Metropolitano",4551.48871610089
+5103,"Concón","Valparaíso Metropolitano",3171.54596815614
+5109,"Viña del Mar","Valparaíso Metropolitano",4004.15528601571
+5801,"Quilpué","Valparaíso Metropolitano",3715.87479947138
+5804,"Villa Alemana","Valparaíso Metropolitano",3500.07367663757
+6101,"Rancagua","Rancagua - Machalí",5095.59896203153
+6108,"Machalí","Rancagua - Machalí",3579.61704500857
+7101,"Talca","Talca - Maule",4090.88540309552
+7105,"Maule","Talca - Maule",3096.54768870685
+8101,"Concepción","Gran Concepcion",4290.29671210906
+8102,"Coronel","Gran Concepcion",4808.97319763414
+8103,"Chiguayante","Gran Concepcion",3743.55793090284
+8106,"Lota","Gran Concepcion",5958.36324479541
+8107,"Penco","Gran Concepcion",4117.8775083794
+8108,"San Pedro de la Paz","Gran Concepcion",4276.37434660884
+8110,"Talcahuano","Gran Concepcion",4503.62313951449
+8111,"Tomé","Gran Concepcion",4186.62778587794
+8112,"Hualpén","Gran Concepcion",4264.17998279842
+9101,"Temuco","Temuco",4232.96429243386
+9112,"Padre Las Casas","Temuco",4973.01518680185
+10101,"Puerto Montt","Puerto Montt - Varas",4961.12266821267
+10109,"Puerto Varas","Puerto Montt - Varas",3821.21241233548
+11101,"Coihaique","Coyhaique",4596.9198848087
+12101,"Punta Arenas","Punta Arenas",4905.73932074379
+13101,"Santiago","Gran Santiago",3033.28732070077
+13102,"Cerrillos","Gran Santiago",5121.19649303765
+13103,"Cerro Navia","Gran Santiago",5466.25497585857
+13104,"Conchalí","Gran Santiago",5851.84643272287
+13105,"El Bosque","Gran Santiago",5450.41494162265
+13106,"Estación Central","Gran Santiago",4769.10541078396
+13107,"Huechuraba","Gran Santiago",4244.67812259554
+13108,"Independencia","Gran Santiago",5696.75925925926
+13109,"La Cisterna","Gran Santiago",3518.31363186397
+13110,"La Florida","Gran Santiago",3516.4571310512
+13111,"La Granja","Gran Santiago",5182.68738261909
+13112,"La Pintana","Gran Santiago",5792.84290061916
+13113,"La Reina","Gran Santiago",2937.29930708129
+13114,"Las Condes","Gran Santiago",1982.93087040428
+13115,"Lo Barnechea","Gran Santiago",2405.92791364274
+13116,"Lo Espejo","Gran Santiago",6491.75473114136
+13117,"Lo Prado","Gran Santiago",4169.02310195806
+13118,"Macul","Gran Santiago",3412.56830601093
+13119,"Maipú","Gran Santiago",3124.993924217
+13120,"Ñuñoa","Gran Santiago",2613.63094386417
+13121,"Pedro Aguirre Cerda","Gran Santiago",5660.66262813599
+13122,"Peñalolén","Gran Santiago",4297.58204979338
+13123,"Providencia","Gran Santiago",2620.05937947647
+13124,"Pudahuel","Gran Santiago",4444.26545670958
+13125,"Quilicura","Gran Santiago",4062.7894851404
+13126,"Quinta Normal","Gran Santiago",4825.16881405144
+13127,"Recoleta","Gran Santiago",5429.91069901119
+13128,"Renca","Gran Santiago",5245.48216855909
+13129,"San Joaquín","Gran Santiago",4564.23285098862
+13130,"San Miguel","Gran Santiago",3824.00935989409
+13131,"San Ramón","Gran Santiago",5680.26546945149
+13132,"Vitacura","Gran Santiago",2639.74555428218
+13201,"Puente Alto","Gran Santiago",4210.72710991164
+13401,"San Bernardo","Gran Santiago",4853.02719843466
+14101,"Valdivia","Valdivia",4551.21963718356
+15101,"Arica","Arica",4705.53067112056
+16101,"Chillán","Chillán",4658.16375982804
+16102,"Bulnes","Chillán",4147.82779634362
+16103,"Chillán Viejo","Chillán",3691.76372712146
+16301,"San Carlos","Chillán",3997.84008639654
+16305,"San Nicolás","Chillán",1602.26201696513
+1101,"Iquique","Iquique - Alto Hospicio",5010.22604375248
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3300.49732211171
+2101,"Antofagasta","Antofagasta",4552.97309851416
+3101,"Copiapó","Copiapo",4325.61374316709
+4101,"La Serena","Gran Coquimbo",4272.40972318455
+4102,"Coquimbo","Gran Coquimbo",3916.65273831411
+5101,"Valparaíso","Valparaíso Metropolitano",4737.3580735433
+5103,"Concón","Valparaíso Metropolitano",3992.29911845172
+5109,"Viña del Mar","Valparaíso Metropolitano",3917.85830171525
+5801,"Quilpué","Valparaíso Metropolitano",3965.33135440149
+5804,"Villa Alemana","Valparaíso Metropolitano",4090.44368600683
+6101,"Rancagua","Rancagua - Machalí",4781.94436145422
+6108,"Machalí","Rancagua - Machalí",3825.10374691766
+7101,"Talca","Talca - Maule",4509.01756386754
+7105,"Maule","Talca - Maule",4157.91684166317
+8101,"Concepción","Gran Concepcion",4557.81843286158
+8102,"Coronel","Gran Concepcion",3901.38316967585
+8103,"Chiguayante","Gran Concepcion",4496.06683406919
+8106,"Lota","Gran Concepcion",5459.83701979045
+8107,"Penco","Gran Concepcion",4370.51532941944
+8108,"San Pedro de la Paz","Gran Concepcion",3753.0457896902
+8110,"Talcahuano","Gran Concepcion",4498.86952872209
+8111,"Tomé","Gran Concepcion",4161.5458791053
+8112,"Hualpén","Gran Concepcion",4169.91470372253
+9101,"Temuco","Temuco",4790.9675717656
+9112,"Padre Las Casas","Temuco",4375.29246607394
+10101,"Puerto Montt","Puerto Montt - Varas",4494.77775588158
+10109,"Puerto Varas","Puerto Montt - Varas",3740.28306121967
+11101,"Coihaique","Coyhaique",3712.5982851247
+12101,"Punta Arenas","Punta Arenas",4648.52426532863
+13101,"Santiago","Gran Santiago",2839.62110334454
+13102,"Cerrillos","Gran Santiago",4093.28219403004
+13103,"Cerro Navia","Gran Santiago",5132.80826260666
+13104,"Conchalí","Gran Santiago",5571.08086180474
+13105,"El Bosque","Gran Santiago",4371.22267985825
+13106,"Estación Central","Gran Santiago",4937.07349384599
+13107,"Huechuraba","Gran Santiago",4092.42175323308
+13108,"Independencia","Gran Santiago",5823.3927886892
+13109,"La Cisterna","Gran Santiago",4193.36457618643
+13110,"La Florida","Gran Santiago",3978.37499371041
+13111,"La Granja","Gran Santiago",5225.89491294487
+13112,"La Pintana","Gran Santiago",5634.76351295147
+13113,"La Reina","Gran Santiago",2695.13674022191
+13114,"Las Condes","Gran Santiago",2409.19992343406
+13115,"Lo Barnechea","Gran Santiago",2091.98753794536
+13116,"Lo Espejo","Gran Santiago",6337.06021130372
+13117,"Lo Prado","Gran Santiago",4112.55878165581
+13118,"Macul","Gran Santiago",3527.49047359826
+13119,"Maipú","Gran Santiago",3299.92098780733
+13120,"Ñuñoa","Gran Santiago",2755.49536410043
+13121,"Pedro Aguirre Cerda","Gran Santiago",4861.4437570705
+13122,"Peñalolén","Gran Santiago",4415.98952843981
+13123,"Providencia","Gran Santiago",3263.68284830503
+13124,"Pudahuel","Gran Santiago",4361.1591887454
+13125,"Quilicura","Gran Santiago",3882.44278570197
+13126,"Quinta Normal","Gran Santiago",4965.01640152449
+13127,"Recoleta","Gran Santiago",5643.1935731617
+13128,"Renca","Gran Santiago",4605.13097638199
+13129,"San Joaquín","Gran Santiago",4908.5883645809
+13130,"San Miguel","Gran Santiago",4030.46938509248
+13131,"San Ramón","Gran Santiago",5717.67878570457
+13132,"Vitacura","Gran Santiago",1973.05597852737
+13201,"Puente Alto","Gran Santiago",4012.65013272127
+13401,"San Bernardo","Gran Santiago",4468.67259511918
+14101,"Valdivia","Valdivia",4434.50527947548
+15101,"Arica","Arica",4784.76083233631
+16101,"Chillán","Chillán",5083.60332600766
+16102,"Bulnes","Chillán",4239.86652272058
+16103,"Chillán Viejo","Chillán",3204.38602465436
+16301,"San Carlos","Chillán",5874.72571314582
+16305,"San Nicolás","Chillán",5365.16853932584
+1101,"Iquique","Iquique - Alto Hospicio",4501.21525943147
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3613.72919360991
+2101,"Antofagasta","Antofagasta",4836.90574141995
+3101,"Copiapó","Copiapo",4066.34942916567
+4101,"La Serena","Gran Coquimbo",4113.67054094697
+4102,"Coquimbo","Gran Coquimbo",3801.5739435018
+5101,"Valparaíso","Valparaíso Metropolitano",4785.41992326275
+5103,"Concón","Valparaíso Metropolitano",3890.29177188289
+5109,"Viña del Mar","Valparaíso Metropolitano",3899.76677333623
+5801,"Quilpué","Valparaíso Metropolitano",3178.09397612094
+5804,"Villa Alemana","Valparaíso Metropolitano",2725.4162079485
+6101,"Rancagua","Rancagua - Machalí",4544.08883359359
+6108,"Machalí","Rancagua - Machalí",2751.04235670031
+7101,"Talca","Talca - Maule",4476.6463360321
+7105,"Maule","Talca - Maule",2798.022953841
+8101,"Concepción","Gran Concepcion",3846.33065480021
+8102,"Coronel","Gran Concepcion",3937.16583370402
+8103,"Chiguayante","Gran Concepcion",3241.13112982339
+8106,"Lota","Gran Concepcion",5907.54827384435
+8107,"Penco","Gran Concepcion",3095.94160076475
+8108,"San Pedro de la Paz","Gran Concepcion",4022.96179232128
+8110,"Talcahuano","Gran Concepcion",4740.91980091125
+8111,"Tomé","Gran Concepcion",4411.7924795558
+8112,"Hualpén","Gran Concepcion",4187.77287649906
+9101,"Temuco","Temuco",4223.99359394336
+9112,"Padre Las Casas","Temuco",4292.74393062012
+10101,"Puerto Montt","Puerto Montt - Varas",4488.14219464295
+10109,"Puerto Varas","Puerto Montt - Varas",4219.85073585827
+11101,"Coihaique","Coyhaique",3636.84629678789
+12101,"Punta Arenas","Punta Arenas",4681.5261362735
+13101,"Santiago","Gran Santiago",3036.98834717217
+13102,"Cerrillos","Gran Santiago",4379.9250248642
+13103,"Cerro Navia","Gran Santiago",5008.66484384026
+13104,"Conchalí","Gran Santiago",5001.19566920368
+13105,"El Bosque","Gran Santiago",5430.55022614187
+13106,"Estación Central","Gran Santiago",4371.28410709307
+13107,"Huechuraba","Gran Santiago",4434.16672715772
+13108,"Independencia","Gran Santiago",5571.81878529998
+13109,"La Cisterna","Gran Santiago",4238.95899053628
+13110,"La Florida","Gran Santiago",3288.57221156481
+13111,"La Granja","Gran Santiago",5095.63567032029
+13112,"La Pintana","Gran Santiago",4789.65590176892
+13113,"La Reina","Gran Santiago",2749.53605137021
+13114,"Las Condes","Gran Santiago",2506.39101922863
+13115,"Lo Barnechea","Gran Santiago",2083.02743762175
+13116,"Lo Espejo","Gran Santiago",5463.83525583227
+13117,"Lo Prado","Gran Santiago",4951.84197638352
+13118,"Macul","Gran Santiago",3541.29251762073
+13119,"Maipú","Gran Santiago",2938.67474178585
+13120,"Ñuñoa","Gran Santiago",2464.34794160778
+13121,"Pedro Aguirre Cerda","Gran Santiago",4981.37515177708
+13122,"Peñalolén","Gran Santiago",3717.74711710798
+13123,"Providencia","Gran Santiago",3575.02986301795
+13124,"Pudahuel","Gran Santiago",4311.72191637953
+13125,"Quilicura","Gran Santiago",3611.19628962398
+13126,"Quinta Normal","Gran Santiago",4129.15447520444
+13127,"Recoleta","Gran Santiago",6175.57574902783
+13128,"Renca","Gran Santiago",5505.07454860321
+13129,"San Joaquín","Gran Santiago",3744.40510388135
+13130,"San Miguel","Gran Santiago",4075.53600987296
+13131,"San Ramón","Gran Santiago",4854.62455647638
+13132,"Vitacura","Gran Santiago",2202.64885289452
+13201,"Puente Alto","Gran Santiago",3762.81652336267
+13401,"San Bernardo","Gran Santiago",4313.19793726805
+14101,"Valdivia","Valdivia",4092.3921944091
+15101,"Arica","Arica",4938.71866295265
+16101,"Chillán","Chillán",4831.38543606827
+16102,"Bulnes","Chillán",4931.85606432003
+16103,"Chillán Viejo","Chillán",2595.18467669022
+16301,"San Carlos","Chillán",4607.57982691734
+16305,"San Nicolás","Chillán",5070.23909200856
+1101,"Iquique","Iquique - Alto Hospicio",4072.73257145236
+1107,"Alto Hospicio","Iquique - Alto Hospicio",2947.97687861272
+2101,"Antofagasta","Antofagasta",4488.09660850642
+3101,"Copiapó","Copiapo",3824.1772273119
+4101,"La Serena","Gran Coquimbo",3837.05927997172
+4102,"Coquimbo","Gran Coquimbo",3431.32886575889
+5101,"Valparaíso","Valparaíso Metropolitano",4564.56477693426
+5103,"Concón","Valparaíso Metropolitano",2692.63962520035
+5109,"Viña del Mar","Valparaíso Metropolitano",3768.01962180552
+5801,"Quilpué","Valparaíso Metropolitano",3863.45376010328
+5804,"Villa Alemana","Valparaíso Metropolitano",3233.0615687377
+6101,"Rancagua","Rancagua - Machalí",4443.34545942231
+6108,"Machalí","Rancagua - Machalí",2702.24208453265
+7101,"Talca","Talca - Maule",4093.31375702067
+7105,"Maule","Talca - Maule",2886.35595074695
+8101,"Concepción","Gran Concepcion",3705.59238483767
+8102,"Coronel","Gran Concepcion",3741.14042906718
+8103,"Chiguayante","Gran Concepcion",3644.90081458909
+8106,"Lota","Gran Concepcion",5222.40527182866
+8107,"Penco","Gran Concepcion",4139.24902816687
+8108,"San Pedro de la Paz","Gran Concepcion",3314.96751149447
+8110,"Talcahuano","Gran Concepcion",4516.59490980435
+8111,"Tomé","Gran Concepcion",3648.61548915608
+8112,"Hualpén","Gran Concepcion",3765.24699569364
+9101,"Temuco","Temuco",3716.22965821828
+9112,"Padre Las Casas","Temuco",4813.71047895345
+10101,"Puerto Montt","Puerto Montt - Varas",4244.39938396271
+10109,"Puerto Varas","Puerto Montt - Varas",3300.7530844416
+11101,"Coihaique","Coyhaique",4173.63445932863
+12101,"Punta Arenas","Punta Arenas",4019.25845507541
+13101,"Santiago","Gran Santiago",2998.04985785108
+13102,"Cerrillos","Gran Santiago",3617.3461019216
+13103,"Cerro Navia","Gran Santiago",5468.55081085675
+13104,"Conchalí","Gran Santiago",4899.58847736626
+13105,"El Bosque","Gran Santiago",4404.17616704668
+13106,"Estación Central","Gran Santiago",4189.22542816348
+13107,"Huechuraba","Gran Santiago",3938.23257327003
+13108,"Independencia","Gran Santiago",6112.21323566814
+13109,"La Cisterna","Gran Santiago",3733.6093857833
+13110,"La Florida","Gran Santiago",3425.04696235765
+13111,"La Granja","Gran Santiago",5260.16017945707
+13112,"La Pintana","Gran Santiago",5391.79042029746
+13113,"La Reina","Gran Santiago",2613.98521887436
+13114,"Las Condes","Gran Santiago",2114.46700599431
+13115,"Lo Barnechea","Gran Santiago",1946.2685432446
+13116,"Lo Espejo","Gran Santiago",5581.10433286407
+13117,"Lo Prado","Gran Santiago",3956.92079618043
+13118,"Macul","Gran Santiago",3398.24019704082
+13119,"Maipú","Gran Santiago",3194.91206945478
+13120,"Ñuñoa","Gran Santiago",2447.0291047782
+13121,"Pedro Aguirre Cerda","Gran Santiago",4473.04807751906
+13122,"Peñalolén","Gran Santiago",3959.82398921494
+13123,"Providencia","Gran Santiago",3205.36010370504
+13124,"Pudahuel","Gran Santiago",3548.15256620679
+13125,"Quilicura","Gran Santiago",3287.7587587912
+13126,"Quinta Normal","Gran Santiago",4702.82958317287
+13127,"Recoleta","Gran Santiago",4337.8920912622
+13128,"Renca","Gran Santiago",4573.2208404098
+13129,"San Joaquín","Gran Santiago",5504.33267871606
+13130,"San Miguel","Gran Santiago",4051.34871011509
+13131,"San Ramón","Gran Santiago",5393.46047666084
+13132,"Vitacura","Gran Santiago",1978.59599949038
+13201,"Puente Alto","Gran Santiago",3505.34080707444
+13401,"San Bernardo","Gran Santiago",4078.47203418374
+14101,"Valdivia","Valdivia",4524.66636677163
+15101,"Arica","Arica",4204.78172863759
+16101,"Chillán","Chillán",4740.27135161716
+16102,"Bulnes","Chillán",2560.33680912518
+16103,"Chillán Viejo","Chillán",2399.52601955169
+16301,"San Carlos","Chillán",5141.42896814377
+16305,"San Nicolás","Chillán",4686.20020334596
+1101,"Iquique","Iquique - Alto Hospicio",4424.30542239805
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3584.03756679068
+2101,"Antofagasta","Antofagasta",4226.24259627162
+3101,"Copiapó","Copiapo",3863.01836558299
+4101,"La Serena","Gran Coquimbo",3460.66344744486
+4102,"Coquimbo","Gran Coquimbo",3613.78540532998
+5101,"Valparaíso","Valparaíso Metropolitano",4607.53493540379
+5103,"Concón","Valparaíso Metropolitano",3533.86928326816
+5109,"Viña del Mar","Valparaíso Metropolitano",3969.79754189383
+5801,"Quilpué","Valparaíso Metropolitano",3253.40721575977
+5804,"Villa Alemana","Valparaíso Metropolitano",3859.75753534926
+6101,"Rancagua","Rancagua - Machalí",5020.08532111615
+6108,"Machalí","Rancagua - Machalí",3310.52544217185
+7101,"Talca","Talca - Maule",4494.36119837276
+7105,"Maule","Talca - Maule",3171.35161792041
+8101,"Concepción","Gran Concepcion",3921.92873310958
+8102,"Coronel","Gran Concepcion",3763.25604578814
+8103,"Chiguayante","Gran Concepcion",3053.22725765971
+8106,"Lota","Gran Concepcion",4838.55717865078
+8107,"Penco","Gran Concepcion",4730.18421680734
+8108,"San Pedro de la Paz","Gran Concepcion",3084.75994144185
+8110,"Talcahuano","Gran Concepcion",4164.04905629456
+8111,"Tomé","Gran Concepcion",3837.59103430059
+8112,"Hualpén","Gran Concepcion",3642.77188478256
+9101,"Temuco","Temuco",3622.9617244665
+9112,"Padre Las Casas","Temuco",4506.3351661487
+10101,"Puerto Montt","Puerto Montt - Varas",4032.57527714673
+10109,"Puerto Varas","Puerto Montt - Varas",2636.98089373125
+11101,"Coihaique","Coyhaique",3558.28865762641
+12101,"Punta Arenas","Punta Arenas",4159.05042663908
+13101,"Santiago","Gran Santiago",3062.38728028067
+13102,"Cerrillos","Gran Santiago",3915.38203545209
+13103,"Cerro Navia","Gran Santiago",5417.40401631146
+13104,"Conchalí","Gran Santiago",4498.99081971483
+13105,"El Bosque","Gran Santiago",4972.90948357519
+13106,"Estación Central","Gran Santiago",3674.72812855056
+13107,"Huechuraba","Gran Santiago",4393.21832242713
+13108,"Independencia","Gran Santiago",6171.46099706208
+13109,"La Cisterna","Gran Santiago",3692.65664870995
+13110,"La Florida","Gran Santiago",3355.31167909221
+13111,"La Granja","Gran Santiago",4241.04594905476
+13112,"La Pintana","Gran Santiago",4946.20059095724
+13113,"La Reina","Gran Santiago",2469.20536891574
+13114,"Las Condes","Gran Santiago",2268.02519477856
+13115,"Lo Barnechea","Gran Santiago",1265.84590655025
+13116,"Lo Espejo","Gran Santiago",6051.46406388642
+13117,"Lo Prado","Gran Santiago",4555.81850206935
+13118,"Macul","Gran Santiago",3263.03430882289
+13119,"Maipú","Gran Santiago",3223.05193083966
+13120,"Ñuñoa","Gran Santiago",2625.24004041778
+13121,"Pedro Aguirre Cerda","Gran Santiago",5061.59476315654
+13122,"Peñalolén","Gran Santiago",3386.46815004227
+13123,"Providencia","Gran Santiago",2338.2702559029
+13124,"Pudahuel","Gran Santiago",3785.25057534435
+13125,"Quilicura","Gran Santiago",3127.29655306753
+13126,"Quinta Normal","Gran Santiago",4144.52616391597
+13127,"Recoleta","Gran Santiago",4786.74937903316
+13128,"Renca","Gran Santiago",4158.37294010914
+13129,"San Joaquín","Gran Santiago",4322.09902294434
+13130,"San Miguel","Gran Santiago",3815.94325007474
+13131,"San Ramón","Gran Santiago",5383.38333248589
+13132,"Vitacura","Gran Santiago",1939.40898932208
+13201,"Puente Alto","Gran Santiago",3462.50603511803
+13401,"San Bernardo","Gran Santiago",4234.27464440804
+14101,"Valdivia","Valdivia",3697.18309859155
+15101,"Arica","Arica",4454.14532398084
+16101,"Chillán","Chillán",4345.75029145617
+16102,"Bulnes","Chillán",4668.78513810804
+16103,"Chillán Viejo","Chillán",2223.59080742926
+16301,"San Carlos","Chillán",4628.98854622065
+16305,"San Nicolás","Chillán",3161.18360595479
+1101,"Iquique","Iquique - Alto Hospicio",4826.27273837138
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3014.38440193988
+2101,"Antofagasta","Antofagasta",3935.9851677919
+3101,"Copiapó","Copiapo",3382.08808261094
+4101,"La Serena","Gran Coquimbo",3210.60720151833
+4102,"Coquimbo","Gran Coquimbo",3387.11811171473
+5101,"Valparaíso","Valparaíso Metropolitano",4388.28625064235
+5103,"Concón","Valparaíso Metropolitano",2523.25942933678
+5109,"Viña del Mar","Valparaíso Metropolitano",3839.68514022265
+5801,"Quilpué","Valparaíso Metropolitano",3995.11268352612
+5804,"Villa Alemana","Valparaíso Metropolitano",3528.56514612402
+6101,"Rancagua","Rancagua - Machalí",4894.20544156746
+6108,"Machalí","Rancagua - Machalí",2523.15439259059
+7101,"Talca","Talca - Maule",4252.4378279034
+7105,"Maule","Talca - Maule",2948.85745375408
+8101,"Concepción","Gran Concepcion",3693.59116731982
+8102,"Coronel","Gran Concepcion",3690.36135321786
+8103,"Chiguayante","Gran Concepcion",2342.73421432117
+8106,"Lota","Gran Concepcion",4135.60609657661
+8107,"Penco","Gran Concepcion",3203.20971589677
+8108,"San Pedro de la Paz","Gran Concepcion",3240.31543283823
+8110,"Talcahuano","Gran Concepcion",3774.56615755187
+8111,"Tomé","Gran Concepcion",3549.47003130776
+8112,"Hualpén","Gran Concepcion",3841.82697716279
+9101,"Temuco","Temuco",4237.33963417468
+9112,"Padre Las Casas","Temuco",4858.98564241333
+10101,"Puerto Montt","Puerto Montt - Varas",4512.24735856839
+10109,"Puerto Varas","Puerto Montt - Varas",3087.97047642338
+11101,"Coihaique","Coyhaique",4496.47813655067
+12101,"Punta Arenas","Punta Arenas",4740.02121021164
+13101,"Santiago","Gran Santiago",2720.12317538907
+13102,"Cerrillos","Gran Santiago",3885.14338756168
+13103,"Cerro Navia","Gran Santiago",4702.63534124879
+13104,"Conchalí","Gran Santiago",5488.1033583437
+13105,"El Bosque","Gran Santiago",4532.32965148535
+13106,"Estación Central","Gran Santiago",3721.97802834193
+13107,"Huechuraba","Gran Santiago",3285.87710317384
+13108,"Independencia","Gran Santiago",5244.7639317924
+13109,"La Cisterna","Gran Santiago",4552.35374210397
+13110,"La Florida","Gran Santiago",3359.30170901823
+13111,"La Granja","Gran Santiago",4775.83359685183
+13112,"La Pintana","Gran Santiago",4738.29477034712
+13113,"La Reina","Gran Santiago",2670.14364837908
+13114,"Las Condes","Gran Santiago",2011.56268875658
+13115,"Lo Barnechea","Gran Santiago",1331.07835748962
+13116,"Lo Espejo","Gran Santiago",5673.58134392958
+13117,"Lo Prado","Gran Santiago",4586.92075971543
+13118,"Macul","Gran Santiago",3414.89829762751
+13119,"Maipú","Gran Santiago",3123.24319896947
+13120,"Ñuñoa","Gran Santiago",2076.45202339224
+13121,"Pedro Aguirre Cerda","Gran Santiago",5326.72495177113
+13122,"Peñalolén","Gran Santiago",3282.81803947657
+13123,"Providencia","Gran Santiago",3205.8090386908
+13124,"Pudahuel","Gran Santiago",4139.11557287238
+13125,"Quilicura","Gran Santiago",3735.84138970252
+13126,"Quinta Normal","Gran Santiago",3952.09680923967
+13127,"Recoleta","Gran Santiago",4928.35380367514
+13128,"Renca","Gran Santiago",5108.08390037833
+13129,"San Joaquín","Gran Santiago",3914.07028643238
+13130,"San Miguel","Gran Santiago",3873.7384211254
+13131,"San Ramón","Gran Santiago",4978.66649684774
+13132,"Vitacura","Gran Santiago",1220.65954213205
+13201,"Puente Alto","Gran Santiago",3675.87361025964
+13401,"San Bernardo","Gran Santiago",4044.26218504585
+14101,"Valdivia","Valdivia",4333.97107404969
+15101,"Arica","Arica",4290.07478476741
+16101,"Chillán","Chillán",4138.57409266963
+16102,"Bulnes","Chillán",4974.83262473733
+16103,"Chillán Viejo","Chillán",3780.15657453267
+16301,"San Carlos","Chillán",4741.03900205274
+16305,"San Nicolás","Chillán",4788.44923695513
+1101,"Iquique","Iquique - Alto Hospicio",3801.16682135889
+1107,"Alto Hospicio","Iquique - Alto Hospicio",3990.62325464314
+2101,"Antofagasta","Antofagasta",3947.46860470543
+3101,"Copiapó","Copiapo",3480.34415436444
+4101,"La Serena","Gran Coquimbo",3391.60839160839
+4102,"Coquimbo","Gran Coquimbo",3729.79277535544
+5101,"Valparaíso","Valparaíso Metropolitano",4478.31771021668
+5103,"Concón","Valparaíso Metropolitano",2856.60412934854
+5109,"Viña del Mar","Valparaíso Metropolitano",3698.66856563302
+5801,"Quilpué","Valparaíso Metropolitano",3580.6781506913
+5804,"Villa Alemana","Valparaíso Metropolitano",3175.15262131034
+6101,"Rancagua","Rancagua - Machalí",4783.21051988764
+6108,"Machalí","Rancagua - Machalí",3358.33347970421
+7101,"Talca","Talca - Maule",4043.88858347077
+7105,"Maule","Talca - Maule",3071.67829127024
+8101,"Concepción","Gran Concepcion",4225.02912389811
+8102,"Coronel","Gran Concepcion",4427.19599609789
+8103,"Chiguayante","Gran Concepcion",3042.64183455488
+8106,"Lota","Gran Concepcion",4250.95908690161
+8107,"Penco","Gran Concepcion",3436.54525362397
+8108,"San Pedro de la Paz","Gran Concepcion",3368.76095046408
+8110,"Talcahuano","Gran Concepcion",3769.74333662389
+8111,"Tomé","Gran Concepcion",3571.1592126103
+8112,"Hualpén","Gran Concepcion",3783.12765527008
+9101,"Temuco","Temuco",3691.89425527604
+9112,"Padre Las Casas","Temuco",4826.27741021408
+10101,"Puerto Montt","Puerto Montt - Varas",3971.73632595764
+10109,"Puerto Varas","Puerto Montt - Varas",3121.71168011224
+11101,"Coihaique","Coyhaique",4573.85870508592
+12101,"Punta Arenas","Punta Arenas",4277.41273880512
+13101,"Santiago","Gran Santiago",2925.32042652574
+13102,"Cerrillos","Gran Santiago",4360.60576736985
+13103,"Cerro Navia","Gran Santiago",7108.61952401571
+13104,"Conchalí","Gran Santiago",5114.19863040811
+13105,"El Bosque","Gran Santiago",5548.14516534957
+13106,"Estación Central","Gran Santiago",3987.41750576088
+13107,"Huechuraba","Gran Santiago",3858.25140317173
+13108,"Independencia","Gran Santiago",5519.45350147897
+13109,"La Cisterna","Gran Santiago",3445.16852203919
+13110,"La Florida","Gran Santiago",3485.46403980014
+13111,"La Granja","Gran Santiago",5361.67596293206
+13112,"La Pintana","Gran Santiago",6514.89666427965
+13113,"La Reina","Gran Santiago",2205.54196151048
+13114,"Las Condes","Gran Santiago",1849.49388849673
+13115,"Lo Barnechea","Gran Santiago",2027.62491467289
+13116,"Lo Espejo","Gran Santiago",7302.15939749372
+13117,"Lo Prado","Gran Santiago",4671.72250623178
+13118,"Macul","Gran Santiago",2798.49980714151
+13119,"Maipú","Gran Santiago",3346.44448255354
+13120,"Ñuñoa","Gran Santiago",1957.07182418205
+13121,"Pedro Aguirre Cerda","Gran Santiago",6472.24066601971
+13122,"Peñalolén","Gran Santiago",3867.56647816387
+13123,"Providencia","Gran Santiago",2606.30127483666
+13124,"Pudahuel","Gran Santiago",3912.268825198
+13125,"Quilicura","Gran Santiago",3848.64113300891
+13126,"Quinta Normal","Gran Santiago",4647.50121882018
+13127,"Recoleta","Gran Santiago",5256.40074634956
+13128,"Renca","Gran Santiago",4641.64543426316
+13129,"San Joaquín","Gran Santiago",5269.23570420427
+13130,"San Miguel","Gran Santiago",3893.17731124113
+13131,"San Ramón","Gran Santiago",6713.51503016235
+13132,"Vitacura","Gran Santiago",1445.83969017721
+13201,"Puente Alto","Gran Santiago",3649.59728191559
+13401,"San Bernardo","Gran Santiago",4916.34232682139
+14101,"Valdivia","Valdivia",4368.35386598096
+15101,"Arica","Arica",4518.99782002886
+16101,"Chillán","Chillán",4366.52713237836
+16102,"Bulnes","Chillán",4847.06342226131
+16103,"Chillán Viejo","Chillán",3215.02868309904
+16301,"San Carlos","Chillán",4703.17025594546
+16305,"San Nicolás","Chillán",4629.3769895407

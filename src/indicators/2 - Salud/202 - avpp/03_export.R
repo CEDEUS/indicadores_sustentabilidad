@@ -11,14 +11,14 @@
 library(tidyverse)
 library(here)
 library(glue)
-
+library(sf)
 
 # Indicador
 indicator <- "2 - Salud/202 - avpp"
 
 # Importar funciones auxiliares
 source("src/functions/get_workdirs.R")
-
+source("src/functions/write_files.R", encoding = "utf-8")
 # Rutas de trabajo
 dirs <- getDirs(indicator)
 
@@ -31,34 +31,18 @@ load(glue("{dirs@cleandatadir}/avpp_pmc.RDS"))
 agnos <- unique(avpp_com$agno)
 
 #### Exportar datos ####
-indiname <- str_split(string =  indicator, pattern =  "/")[[1]][2] %>%
-  paste0("_")
+# Nombre de exportación
+indicator_name <- str_split(string =  indicator, pattern =  "/")[[1]][2]
 
-# Nivel Comunal
-lapply(agnos, function(x){
-  print(paste("Exportando a nivel Comunal. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- avpp_com %>%
-    filter(agno == x)
-  write.csv2(tmp, glue("{dirs@outdircom}/{filename}"), row.names = F)
-})
+# Exportar csvs
+write_indicator(avpp_com, indicator_name, ind_scale = "com", 
+                outdir = dirs@outdircom)
 
-# Nivel ciudad
-lapply(agnos, function(x){
-  print(paste("Exportando a nivel Ciudad. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- avpp_city %>%
-    filter(agno == x)
-  write.csv2(tmp, glue("{dirs@outdircty}{filename}"), row.names = F)
-})
+write_indicator(avpp_city, indicator_name, ind_scale = "cty", 
+                outdir = dirs@outdircty)
 
-# Nivel pmc
-lapply(agnos, function(x){
-  print(paste("Exportando datos para PMC. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- avpp_pmc %>%
-    filter(agno == x) %>%
-    select( -agno)
-  write.csv(tmp, glue("{dirs@outdirpmc}{filename}"), row.names = F)
-})
+write_indicator(avpp_pmc, indicator_name, ind_scale = "pmc", 
+                outdir = dirs@outdirpmc)
 
+# Exportar shp
+write_shp(avpp_com, indicator_name, "AVPP", "comunas_dpa2017.shp")

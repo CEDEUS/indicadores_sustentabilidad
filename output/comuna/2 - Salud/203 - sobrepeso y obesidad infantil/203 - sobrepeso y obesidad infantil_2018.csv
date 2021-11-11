@@ -1,72 +1,853 @@
-"agno";"comuna";"nom_com";"city";"dato"
-"2018";1101;"Iquique";"Iquique - Alto Hospicio";46,6
-"2018";1107;"Alto Hospicio";"Iquique - Alto Hospicio";51,5
-"2018";2101;"Antofagasta";"Antofagasta";45
-"2018";3101;"Copiapó";"Copiapo";45,4
-"2018";4101;"La Serena";"Gran Coquimbo";49,5
-"2018";4102;"Coquimbo";"Gran Coquimbo";49,9
-"2018";5101;"Valparaíso";"Valparaíso Metropolitano";50,3
-"2018";5103;"Concón";"Valparaíso Metropolitano";52,2
-"2018";5109;"Viña del Mar";"Valparaíso Metropolitano";50,2
-"2018";5801;"Quilpué";"Valparaíso Metropolitano";46,7
-"2018";5804;"Villa Alemana";"Valparaíso Metropolitano";47,7
-"2018";6101;"Rancagua";"Rancagua - Machalí";51,5
-"2018";6108;"Machalí";"Rancagua - Machalí";49,4
-"2018";7101;"Talca";"Talca - Maule";53,6
-"2018";7105;"Maule";"Talca - Maule";66,1
-"2018";8101;"Concepción";"Gran Concepcion";52,8
-"2018";8102;"Coronel";"Gran Concepcion";51,2
-"2018";8103;"Chiguayante";"Gran Concepcion";60,8
-"2018";8106;"Lota";"Gran Concepcion";60,1
-"2018";8107;"Penco";"Gran Concepcion";53,7
-"2018";8108;"San Pedro de la Paz";"Gran Concepcion";46,5
-"2018";8110;"Talcahuano";"Gran Concepcion";56,5
-"2018";8111;"Tomé";"Gran Concepcion";52,2
-"2018";8112;"Hualpén";"Gran Concepcion";54,6
-"2018";9101;"Temuco";"Temuco";54
-"2018";9112;"Padre Las Casas";"Temuco";54,2
-"2018";10101;"Puerto Montt";"Puerto Montt - Varas";54,7
-"2018";10109;"Puerto Varas";"Puerto Montt - Varas";52
-"2018";11101;"Coihaique";"Coyhaique";55,9
-"2018";12101;"Punta Arenas";"Punta Arenas";54,8
-"2018";13101;"Santiago";"Gran Santiago";46
-"2018";13102;"Cerrillos";"Gran Santiago";47
-"2018";13103;"Cerro Navia";"Gran Santiago";49,8
-"2018";13104;"Conchalí";"Gran Santiago";50,1
-"2018";13105;"El Bosque";"Gran Santiago";51
-"2018";13106;"Estación Central";"Gran Santiago";46,9
-"2018";13107;"Huechuraba";"Gran Santiago";47,2
-"2018";13108;"Independencia";"Gran Santiago";45,8
-"2018";13109;"La Cisterna";"Gran Santiago";44,1
-"2018";13110;"La Florida";"Gran Santiago";46,2
-"2018";13111;"La Granja";"Gran Santiago";46,8
-"2018";13112;"La Pintana";"Gran Santiago";51,2
-"2018";13113;"La Reina";"Gran Santiago";50,2
-"2018";13114;"Las Condes";"Gran Santiago";41,4
-"2018";13115;"Lo Barnechea";"Gran Santiago";49,9
-"2018";13116;"Lo Espejo";"Gran Santiago";49,5
-"2018";13117;"Lo Prado";"Gran Santiago";47,5
-"2018";13118;"Macul";"Gran Santiago";49
-"2018";13119;"Maipú";"Gran Santiago";49,5
-"2018";13120;"Ñuñoa";"Gran Santiago";44,6
-"2018";13121;"Pedro Aguirre Cerda";"Gran Santiago";46,1
-"2018";13122;"Peñalolén";"Gran Santiago";51,5
-"2018";13123;"Providencia";"Gran Santiago";44,1
-"2018";13124;"Pudahuel";"Gran Santiago";50
-"2018";13125;"Quilicura";"Gran Santiago";46,4
-"2018";13126;"Quinta Normal";"Gran Santiago";45,4
-"2018";13127;"Recoleta";"Gran Santiago";45,5
-"2018";13128;"Renca";"Gran Santiago";48,7
-"2018";13129;"San Joaquín";"Gran Santiago";49,1
-"2018";13130;"San Miguel";"Gran Santiago";45,8
-"2018";13131;"San Ramón";"Gran Santiago";52,5
-"2018";13132;"Vitacura";"Gran Santiago";33,4
-"2018";13201;"Puente Alto";"Gran Santiago";49,1
-"2018";13401;"San Bernardo";"Gran Santiago";49,4
-"2018";14101;"Valdivia";"Valdivia";55,3
-"2018";15101;"Arica";"Arica";48,4
-"2018";16101;"Chillán";"Chillán";52,7
-"2018";16102;"Bulnes";"Chillán";43,8
-"2018";16103;"Chillán Viejo";"Chillán";54,3
-"2018";16301;"San Carlos";"Chillán";55,9
-"2018";16305;"San Nicolás";"Chillán";43,7
+"comuna","nom_com","city","percent"
+1101,"Iquique","Iquique - Alto Hospicio",45.8
+1107,"Alto Hospicio","Iquique - Alto Hospicio",44.3
+2101,"Antofagasta","Antofagasta",43.6
+3101,"Copiapó","Copiapo",47.3
+4101,"La Serena","Gran Coquimbo",47.7
+4102,"Coquimbo","Gran Coquimbo",47.9
+5101,"Valparaíso","Valparaíso Metropolitano",51.2
+5103,"Concón","Valparaíso Metropolitano",47.1
+5109,"Viña del Mar","Valparaíso Metropolitano",47.9
+5801,"Quilpué","Valparaíso Metropolitano",43.7
+5804,"Villa Alemana","Valparaíso Metropolitano",43.3
+6101,"Rancagua","Rancagua - Machalí",46.1
+6108,"Machalí","Rancagua - Machalí",40.6
+7101,"Talca","Talca - Maule",45.9
+7105,"Maule","Talca - Maule",43
+8101,"Concepción","Gran Concepcion",47.6
+8102,"Coronel","Gran Concepcion",47.8
+8103,"Chiguayante","Gran Concepcion",49.7
+8106,"Lota","Gran Concepcion",48.1
+8107,"Penco","Gran Concepcion",49.2
+8108,"San Pedro de la Paz","Gran Concepcion",49.1
+8110,"Talcahuano","Gran Concepcion",51.4
+8111,"Tomé","Gran Concepcion",48.8
+8112,"Hualpén","Gran Concepcion",49.4
+9101,"Temuco","Temuco",49
+9112,"Padre Las Casas","Temuco",48.9
+10101,"Puerto Montt","Puerto Montt - Varas",54.1
+10109,"Puerto Varas","Puerto Montt - Varas",50.3
+11101,"Coihaique","Coyhaique",55.7
+12101,"Punta Arenas","Punta Arenas",55.4
+13101,"Santiago","Gran Santiago",46.3
+13102,"Cerrillos","Gran Santiago",47.2
+13103,"Cerro Navia","Gran Santiago",46.8
+13104,"Conchalí","Gran Santiago",44.3
+13105,"El Bosque","Gran Santiago",43.8
+13106,"Estación Central","Gran Santiago",42.8
+13107,"Huechuraba","Gran Santiago",38.9
+13108,"Independencia","Gran Santiago",47.4
+13109,"La Cisterna","Gran Santiago",42.5
+13110,"La Florida","Gran Santiago",44.4
+13111,"La Granja","Gran Santiago",44.8
+13112,"La Pintana","Gran Santiago",45.3
+13113,"La Reina","Gran Santiago",45.8
+13114,"Las Condes","Gran Santiago",40.3
+13115,"Lo Barnechea","Gran Santiago",46.3
+13116,"Lo Espejo","Gran Santiago",44.2
+13117,"Lo Prado","Gran Santiago",47.8
+13118,"Macul","Gran Santiago",52.8
+13119,"Maipú","Gran Santiago",46.7
+13120,"Ñuñoa","Gran Santiago",43.9
+13121,"Pedro Aguirre Cerda","Gran Santiago",48.5
+13122,"Peñalolén","Gran Santiago",43.9
+13123,"Providencia","Gran Santiago",47.3
+13124,"Pudahuel","Gran Santiago",45.5
+13125,"Quilicura","Gran Santiago",44.3
+13126,"Quinta Normal","Gran Santiago",47.1
+13127,"Recoleta","Gran Santiago",43.1
+13128,"Renca","Gran Santiago",43.3
+13129,"San Joaquín","Gran Santiago",48.9
+13130,"San Miguel","Gran Santiago",45.9
+13131,"San Ramón","Gran Santiago",34.7
+13132,"Vitacura","Gran Santiago",51.1
+13201,"Puente Alto","Gran Santiago",43.6
+13401,"San Bernardo","Gran Santiago",44.7
+14101,"Valdivia","Valdivia",53.8
+15101,"Arica","Arica",45.6
+16101,"Chillán","Chillán",47.2
+16102,"Bulnes","Chillán",42.4
+16103,"Chillán Viejo","Chillán",56.1
+16301,"San Carlos","Chillán",47.4
+16305,"San Nicolás","Chillán",45.8
+1101,"Iquique","Iquique - Alto Hospicio",48.7
+1107,"Alto Hospicio","Iquique - Alto Hospicio",43.8
+2101,"Antofagasta","Antofagasta",48.6
+3101,"Copiapó","Copiapo",48.6
+4101,"La Serena","Gran Coquimbo",47.9
+4102,"Coquimbo","Gran Coquimbo",49
+5101,"Valparaíso","Valparaíso Metropolitano",48.5
+5103,"Concón","Valparaíso Metropolitano",51.8
+5109,"Viña del Mar","Valparaíso Metropolitano",47.3
+5801,"Quilpué","Valparaíso Metropolitano",47.6
+5804,"Villa Alemana","Valparaíso Metropolitano",44.3
+6101,"Rancagua","Rancagua - Machalí",45.2
+6108,"Machalí","Rancagua - Machalí",41.8
+7101,"Talca","Talca - Maule",48.7
+7105,"Maule","Talca - Maule",53.3
+8101,"Concepción","Gran Concepcion",48.3
+8102,"Coronel","Gran Concepcion",51.5
+8103,"Chiguayante","Gran Concepcion",48
+8106,"Lota","Gran Concepcion",50.4
+8107,"Penco","Gran Concepcion",50.3
+8108,"San Pedro de la Paz","Gran Concepcion",49.7
+8110,"Talcahuano","Gran Concepcion",48.3
+8111,"Tomé","Gran Concepcion",48.7
+8112,"Hualpén","Gran Concepcion",49.9
+9101,"Temuco","Temuco",49.2
+9112,"Padre Las Casas","Temuco",48.4
+10101,"Puerto Montt","Puerto Montt - Varas",54.1
+10109,"Puerto Varas","Puerto Montt - Varas",53.5
+11101,"Coihaique","Coyhaique",50.4
+12101,"Punta Arenas","Punta Arenas",50.8
+13101,"Santiago","Gran Santiago",48.3
+13102,"Cerrillos","Gran Santiago",42.4
+13103,"Cerro Navia","Gran Santiago",47.3
+13104,"Conchalí","Gran Santiago",44
+13105,"El Bosque","Gran Santiago",46.7
+13106,"Estación Central","Gran Santiago",47.7
+13107,"Huechuraba","Gran Santiago",52.2
+13108,"Independencia","Gran Santiago",48.9
+13109,"La Cisterna","Gran Santiago",44.6
+13110,"La Florida","Gran Santiago",47.9
+13111,"La Granja","Gran Santiago",45.8
+13112,"La Pintana","Gran Santiago",44.9
+13113,"La Reina","Gran Santiago",45.7
+13114,"Las Condes","Gran Santiago",46.1
+13115,"Lo Barnechea","Gran Santiago",48.1
+13116,"Lo Espejo","Gran Santiago",49.9
+13117,"Lo Prado","Gran Santiago",42.8
+13118,"Macul","Gran Santiago",46.6
+13119,"Maipú","Gran Santiago",47.3
+13120,"Ñuñoa","Gran Santiago",45
+13121,"Pedro Aguirre Cerda","Gran Santiago",48
+13122,"Peñalolén","Gran Santiago",47.9
+13123,"Providencia","Gran Santiago",45.4
+13124,"Pudahuel","Gran Santiago",49.7
+13125,"Quilicura","Gran Santiago",43
+13126,"Quinta Normal","Gran Santiago",50.4
+13127,"Recoleta","Gran Santiago",49.3
+13128,"Renca","Gran Santiago",49
+13129,"San Joaquín","Gran Santiago",43.5
+13130,"San Miguel","Gran Santiago",46
+13131,"San Ramón","Gran Santiago",45.4
+13132,"Vitacura","Gran Santiago",44.4
+13201,"Puente Alto","Gran Santiago",47.3
+13401,"San Bernardo","Gran Santiago",46.8
+14101,"Valdivia","Valdivia",52.3
+15101,"Arica","Arica",46.6
+16101,"Chillán","Chillán",48.5
+16102,"Bulnes","Chillán",50.2
+16103,"Chillán Viejo","Chillán",50.7
+16301,"San Carlos","Chillán",49.4
+16305,"San Nicolás","Chillán",51.9
+1101,"Iquique","Iquique - Alto Hospicio",44.6
+1107,"Alto Hospicio","Iquique - Alto Hospicio",48.4
+2101,"Antofagasta","Antofagasta",46.5
+3101,"Copiapó","Copiapo",47.6
+4101,"La Serena","Gran Coquimbo",48.8
+4102,"Coquimbo","Gran Coquimbo",51
+5101,"Valparaíso","Valparaíso Metropolitano",50.6
+5103,"Concón","Valparaíso Metropolitano",51
+5109,"Viña del Mar","Valparaíso Metropolitano",50
+5801,"Quilpué","Valparaíso Metropolitano",44.6
+5804,"Villa Alemana","Valparaíso Metropolitano",43.3
+6101,"Rancagua","Rancagua - Machalí",51.2
+6108,"Machalí","Rancagua - Machalí",44.2
+7101,"Talca","Talca - Maule",51.3
+7105,"Maule","Talca - Maule",51.1
+8101,"Concepción","Gran Concepcion",51.2
+8102,"Coronel","Gran Concepcion",51
+8103,"Chiguayante","Gran Concepcion",53.8
+8106,"Lota","Gran Concepcion",57.3
+8107,"Penco","Gran Concepcion",48.9
+8108,"San Pedro de la Paz","Gran Concepcion",47.8
+8110,"Talcahuano","Gran Concepcion",50.2
+8111,"Tomé","Gran Concepcion",53.4
+8112,"Hualpén","Gran Concepcion",53.9
+9101,"Temuco","Temuco",52.6
+9112,"Padre Las Casas","Temuco",54.5
+10101,"Puerto Montt","Puerto Montt - Varas",49.2
+10109,"Puerto Varas","Puerto Montt - Varas",58.7
+11101,"Coihaique","Coyhaique",54.7
+12101,"Punta Arenas","Punta Arenas",55.1
+13101,"Santiago","Gran Santiago",48.4
+13102,"Cerrillos","Gran Santiago",51.1
+13103,"Cerro Navia","Gran Santiago",47.5
+13104,"Conchalí","Gran Santiago",48.8
+13105,"El Bosque","Gran Santiago",51.9
+13106,"Estación Central","Gran Santiago",46.6
+13107,"Huechuraba","Gran Santiago",45.6
+13108,"Independencia","Gran Santiago",44.5
+13109,"La Cisterna","Gran Santiago",47.5
+13110,"La Florida","Gran Santiago",48
+13111,"La Granja","Gran Santiago",48.3
+13112,"La Pintana","Gran Santiago",49.2
+13113,"La Reina","Gran Santiago",43.3
+13114,"Las Condes","Gran Santiago",48.8
+13115,"Lo Barnechea","Gran Santiago",44.8
+13116,"Lo Espejo","Gran Santiago",52.3
+13117,"Lo Prado","Gran Santiago",47.8
+13118,"Macul","Gran Santiago",45
+13119,"Maipú","Gran Santiago",49.4
+13120,"Ñuñoa","Gran Santiago",45.1
+13121,"Pedro Aguirre Cerda","Gran Santiago",49.9
+13122,"Peñalolén","Gran Santiago",45.9
+13123,"Providencia","Gran Santiago",41.4
+13124,"Pudahuel","Gran Santiago",49.6
+13125,"Quilicura","Gran Santiago",44.6
+13126,"Quinta Normal","Gran Santiago",50.3
+13127,"Recoleta","Gran Santiago",47.9
+13128,"Renca","Gran Santiago",48
+13129,"San Joaquín","Gran Santiago",43.3
+13130,"San Miguel","Gran Santiago",44.9
+13131,"San Ramón","Gran Santiago",45.5
+13132,"Vitacura","Gran Santiago",42.1
+13201,"Puente Alto","Gran Santiago",45.7
+13401,"San Bernardo","Gran Santiago",49.6
+14101,"Valdivia","Valdivia",54.4
+15101,"Arica","Arica",49.6
+16101,"Chillán","Chillán",50.3
+16102,"Bulnes","Chillán",54.5
+16103,"Chillán Viejo","Chillán",55.3
+16301,"San Carlos","Chillán",56.6
+16305,"San Nicolás","Chillán",50
+1101,"Iquique","Iquique - Alto Hospicio",47.2
+1107,"Alto Hospicio","Iquique - Alto Hospicio",48.6
+2101,"Antofagasta","Antofagasta",48.5
+3101,"Copiapó","Copiapo",52.6
+4101,"La Serena","Gran Coquimbo",47.1
+4102,"Coquimbo","Gran Coquimbo",50.6
+5101,"Valparaíso","Valparaíso Metropolitano",52.8
+5103,"Concón","Valparaíso Metropolitano",54.4
+5109,"Viña del Mar","Valparaíso Metropolitano",49.9
+5801,"Quilpué","Valparaíso Metropolitano",48.1
+5804,"Villa Alemana","Valparaíso Metropolitano",47.4
+6101,"Rancagua","Rancagua - Machalí",49.3
+6108,"Machalí","Rancagua - Machalí",50.5
+7101,"Talca","Talca - Maule",50.4
+7105,"Maule","Talca - Maule",42.9
+8101,"Concepción","Gran Concepcion",51
+8102,"Coronel","Gran Concepcion",52.9
+8103,"Chiguayante","Gran Concepcion",53.3
+8106,"Lota","Gran Concepcion",52.9
+8107,"Penco","Gran Concepcion",54
+8108,"San Pedro de la Paz","Gran Concepcion",53.4
+8110,"Talcahuano","Gran Concepcion",50.9
+8111,"Tomé","Gran Concepcion",56.7
+8112,"Hualpén","Gran Concepcion",52
+9101,"Temuco","Temuco",52.1
+9112,"Padre Las Casas","Temuco",54.6
+10101,"Puerto Montt","Puerto Montt - Varas",52.4
+10109,"Puerto Varas","Puerto Montt - Varas",49.9
+11101,"Coihaique","Coyhaique",55.1
+12101,"Punta Arenas","Punta Arenas",57.2
+13101,"Santiago","Gran Santiago",47.7
+13102,"Cerrillos","Gran Santiago",47.9
+13103,"Cerro Navia","Gran Santiago",53.6
+13104,"Conchalí","Gran Santiago",51
+13105,"El Bosque","Gran Santiago",49.3
+13106,"Estación Central","Gran Santiago",50.1
+13107,"Huechuraba","Gran Santiago",46.4
+13108,"Independencia","Gran Santiago",46
+13109,"La Cisterna","Gran Santiago",49.9
+13110,"La Florida","Gran Santiago",48.2
+13111,"La Granja","Gran Santiago",47.2
+13112,"La Pintana","Gran Santiago",49.2
+13113,"La Reina","Gran Santiago",46.1
+13114,"Las Condes","Gran Santiago",44.6
+13115,"Lo Barnechea","Gran Santiago",47.6
+13116,"Lo Espejo","Gran Santiago",47.9
+13117,"Lo Prado","Gran Santiago",47.6
+13118,"Macul","Gran Santiago",49.4
+13119,"Maipú","Gran Santiago",47.6
+13120,"Ñuñoa","Gran Santiago",46.1
+13121,"Pedro Aguirre Cerda","Gran Santiago",49.7
+13122,"Peñalolén","Gran Santiago",49.1
+13123,"Providencia","Gran Santiago",46.3
+13124,"Pudahuel","Gran Santiago",48.9
+13125,"Quilicura","Gran Santiago",47.4
+13126,"Quinta Normal","Gran Santiago",48.6
+13127,"Recoleta","Gran Santiago",46.2
+13128,"Renca","Gran Santiago",48.4
+13129,"San Joaquín","Gran Santiago",52
+13130,"San Miguel","Gran Santiago",45.3
+13131,"San Ramón","Gran Santiago",42.4
+13132,"Vitacura","Gran Santiago",33.9
+13201,"Puente Alto","Gran Santiago",46.9
+13401,"San Bernardo","Gran Santiago",49.9
+14101,"Valdivia","Valdivia",46.6
+15101,"Arica","Arica",41.4
+16101,"Chillán","Chillán",44.7
+16102,"Bulnes","Chillán",39.4
+16103,"Chillán Viejo","Chillán",45.6
+16301,"San Carlos","Chillán",51.2
+16305,"San Nicolás","Chillán",56.2
+1101,"Iquique","Iquique - Alto Hospicio",45.9
+1107,"Alto Hospicio","Iquique - Alto Hospicio",51.2
+2101,"Antofagasta","Antofagasta",47.9
+3101,"Copiapó","Copiapo",53.8
+4101,"La Serena","Gran Coquimbo",51.4
+4102,"Coquimbo","Gran Coquimbo",48.5
+5101,"Valparaíso","Valparaíso Metropolitano",54.3
+5103,"Concón","Valparaíso Metropolitano",55.2
+5109,"Viña del Mar","Valparaíso Metropolitano",52.6
+5801,"Quilpué","Valparaíso Metropolitano",45.9
+5804,"Villa Alemana","Valparaíso Metropolitano",44.5
+6101,"Rancagua","Rancagua - Machalí",49.5
+6108,"Machalí","Rancagua - Machalí",51.6
+7101,"Talca","Talca - Maule",55
+7105,"Maule","Talca - Maule",45.6
+8101,"Concepción","Gran Concepcion",51
+8102,"Coronel","Gran Concepcion",52
+8103,"Chiguayante","Gran Concepcion",53.7
+8106,"Lota","Gran Concepcion",56.5
+8107,"Penco","Gran Concepcion",54.8
+8108,"San Pedro de la Paz","Gran Concepcion",54.2
+8110,"Talcahuano","Gran Concepcion",52.2
+8111,"Tomé","Gran Concepcion",59.2
+8112,"Hualpén","Gran Concepcion",54.7
+9101,"Temuco","Temuco",52.7
+9112,"Padre Las Casas","Temuco",47.2
+10101,"Puerto Montt","Puerto Montt - Varas",51.5
+10109,"Puerto Varas","Puerto Montt - Varas",52
+11101,"Coihaique","Coyhaique",58.2
+12101,"Punta Arenas","Punta Arenas",53.8
+13101,"Santiago","Gran Santiago",48
+13102,"Cerrillos","Gran Santiago",56.7
+13103,"Cerro Navia","Gran Santiago",49.4
+13104,"Conchalí","Gran Santiago",50.7
+13105,"El Bosque","Gran Santiago",52.6
+13106,"Estación Central","Gran Santiago",52.8
+13107,"Huechuraba","Gran Santiago",49.4
+13108,"Independencia","Gran Santiago",46.6
+13109,"La Cisterna","Gran Santiago",49.3
+13110,"La Florida","Gran Santiago",52
+13111,"La Granja","Gran Santiago",49.1
+13112,"La Pintana","Gran Santiago",50.1
+13113,"La Reina","Gran Santiago",49.6
+13114,"Las Condes","Gran Santiago",47.2
+13115,"Lo Barnechea","Gran Santiago",51.3
+13116,"Lo Espejo","Gran Santiago",49
+13117,"Lo Prado","Gran Santiago",50.9
+13118,"Macul","Gran Santiago",49.5
+13119,"Maipú","Gran Santiago",50.6
+13120,"Ñuñoa","Gran Santiago",45.8
+13121,"Pedro Aguirre Cerda","Gran Santiago",45.9
+13122,"Peñalolén","Gran Santiago",49.9
+13123,"Providencia","Gran Santiago",48.5
+13124,"Pudahuel","Gran Santiago",50.1
+13125,"Quilicura","Gran Santiago",50
+13126,"Quinta Normal","Gran Santiago",48
+13127,"Recoleta","Gran Santiago",50.1
+13128,"Renca","Gran Santiago",51.1
+13129,"San Joaquín","Gran Santiago",55
+13130,"San Miguel","Gran Santiago",50.3
+13131,"San Ramón","Gran Santiago",45.3
+13132,"Vitacura","Gran Santiago",40
+13201,"Puente Alto","Gran Santiago",46.2
+13401,"San Bernardo","Gran Santiago",48.7
+14101,"Valdivia","Valdivia",58.6
+15101,"Arica","Arica",47.6
+16101,"Chillán","Chillán",50.1
+16102,"Bulnes","Chillán",56.1
+16103,"Chillán Viejo","Chillán",52.8
+16301,"San Carlos","Chillán",57.6
+16305,"San Nicolás","Chillán",51.3
+1101,"Iquique","Iquique - Alto Hospicio",48
+1107,"Alto Hospicio","Iquique - Alto Hospicio",50.6
+2101,"Antofagasta","Antofagasta",49.9
+3101,"Copiapó","Copiapo",49.5
+4101,"La Serena","Gran Coquimbo",50.5
+4102,"Coquimbo","Gran Coquimbo",50
+5101,"Valparaíso","Valparaíso Metropolitano",51.9
+5103,"Concón","Valparaíso Metropolitano",53.6
+5109,"Viña del Mar","Valparaíso Metropolitano",50.8
+5801,"Quilpué","Valparaíso Metropolitano",46.9
+5804,"Villa Alemana","Valparaíso Metropolitano",48.7
+6101,"Rancagua","Rancagua - Machalí",50.5
+6108,"Machalí","Rancagua - Machalí",46.6
+7101,"Talca","Talca - Maule",52.8
+7105,"Maule","Talca - Maule",47.8
+8101,"Concepción","Gran Concepcion",51.9
+8102,"Coronel","Gran Concepcion",51.4
+8103,"Chiguayante","Gran Concepcion",53.5
+8106,"Lota","Gran Concepcion",55
+8107,"Penco","Gran Concepcion",54.9
+8108,"San Pedro de la Paz","Gran Concepcion",51.8
+8110,"Talcahuano","Gran Concepcion",53.3
+8111,"Tomé","Gran Concepcion",53.3
+8112,"Hualpén","Gran Concepcion",55.1
+9101,"Temuco","Temuco",54.4
+9112,"Padre Las Casas","Temuco",47.2
+10101,"Puerto Montt","Puerto Montt - Varas",50.4
+10109,"Puerto Varas","Puerto Montt - Varas",49.4
+11101,"Coihaique","Coyhaique",55.2
+12101,"Punta Arenas","Punta Arenas",55.2
+13101,"Santiago","Gran Santiago",48.5
+13102,"Cerrillos","Gran Santiago",53.2
+13103,"Cerro Navia","Gran Santiago",48.1
+13104,"Conchalí","Gran Santiago",50.8
+13105,"El Bosque","Gran Santiago",51.4
+13106,"Estación Central","Gran Santiago",51.1
+13107,"Huechuraba","Gran Santiago",50.2
+13108,"Independencia","Gran Santiago",50.1
+13109,"La Cisterna","Gran Santiago",48.9
+13110,"La Florida","Gran Santiago",48.9
+13111,"La Granja","Gran Santiago",49.8
+13112,"La Pintana","Gran Santiago",51.1
+13113,"La Reina","Gran Santiago",50.9
+13114,"Las Condes","Gran Santiago",46.3
+13115,"Lo Barnechea","Gran Santiago",47
+13116,"Lo Espejo","Gran Santiago",53.6
+13117,"Lo Prado","Gran Santiago",51.3
+13118,"Macul","Gran Santiago",53.3
+13119,"Maipú","Gran Santiago",50.9
+13120,"Ñuñoa","Gran Santiago",48.3
+13121,"Pedro Aguirre Cerda","Gran Santiago",47.6
+13122,"Peñalolén","Gran Santiago",50.7
+13123,"Providencia","Gran Santiago",45.3
+13124,"Pudahuel","Gran Santiago",50.9
+13125,"Quilicura","Gran Santiago",47.3
+13126,"Quinta Normal","Gran Santiago",49.3
+13127,"Recoleta","Gran Santiago",48.5
+13128,"Renca","Gran Santiago",53
+13129,"San Joaquín","Gran Santiago",53.5
+13130,"San Miguel","Gran Santiago",47.8
+13131,"San Ramón","Gran Santiago",48.5
+13132,"Vitacura","Gran Santiago",42.2
+13201,"Puente Alto","Gran Santiago",50.1
+13401,"San Bernardo","Gran Santiago",46.9
+14101,"Valdivia","Valdivia",54.7
+15101,"Arica","Arica",47.9
+16101,"Chillán","Chillán",57.5
+16102,"Bulnes","Chillán",43.7
+16103,"Chillán Viejo","Chillán",53.9
+16301,"San Carlos","Chillán",56.8
+16305,"San Nicolás","Chillán",37.1
+1101,"Iquique","Iquique - Alto Hospicio",44
+1107,"Alto Hospicio","Iquique - Alto Hospicio",44.2
+2101,"Antofagasta","Antofagasta",43.2
+3101,"Copiapó","Copiapo",45.1
+4101,"La Serena","Gran Coquimbo",45.3
+4102,"Coquimbo","Gran Coquimbo",45
+5101,"Valparaíso","Valparaíso Metropolitano",45.7
+5103,"Concón","Valparaíso Metropolitano",47.9
+5109,"Viña del Mar","Valparaíso Metropolitano",46.9
+5801,"Quilpué","Valparaíso Metropolitano",42.8
+5804,"Villa Alemana","Valparaíso Metropolitano",44.6
+6101,"Rancagua","Rancagua - Machalí",44.5
+6108,"Machalí","Rancagua - Machalí",42.7
+7101,"Talca","Talca - Maule",44.1
+7105,"Maule","Talca - Maule",33
+8101,"Concepción","Gran Concepcion",49.1
+8102,"Coronel","Gran Concepcion",49.5
+8103,"Chiguayante","Gran Concepcion",41.2
+8106,"Lota","Gran Concepcion",44.7
+8107,"Penco","Gran Concepcion",47.6
+8108,"San Pedro de la Paz","Gran Concepcion",49.8
+8110,"Talcahuano","Gran Concepcion",47.5
+8111,"Tomé","Gran Concepcion",44.9
+8112,"Hualpén","Gran Concepcion",50
+9101,"Temuco","Temuco",47.2
+9112,"Padre Las Casas","Temuco",51.1
+10101,"Puerto Montt","Puerto Montt - Varas",48.8
+10109,"Puerto Varas","Puerto Montt - Varas",47.4
+11101,"Coihaique","Coyhaique",51.1
+12101,"Punta Arenas","Punta Arenas",43.5
+13101,"Santiago","Gran Santiago",42.8
+13102,"Cerrillos","Gran Santiago",45.6
+13103,"Cerro Navia","Gran Santiago",45.9
+13104,"Conchalí","Gran Santiago",42.1
+13105,"El Bosque","Gran Santiago",47.5
+13106,"Estación Central","Gran Santiago",43.8
+13107,"Huechuraba","Gran Santiago",35.9
+13108,"Independencia","Gran Santiago",43.9
+13109,"La Cisterna","Gran Santiago",44.2
+13110,"La Florida","Gran Santiago",43
+13111,"La Granja","Gran Santiago",43.3
+13112,"La Pintana","Gran Santiago",44.6
+13113,"La Reina","Gran Santiago",43.3
+13114,"Las Condes","Gran Santiago",39.3
+13115,"Lo Barnechea","Gran Santiago",47.8
+13116,"Lo Espejo","Gran Santiago",47.4
+13117,"Lo Prado","Gran Santiago",47.3
+13118,"Macul","Gran Santiago",51.7
+13119,"Maipú","Gran Santiago",43.8
+13120,"Ñuñoa","Gran Santiago",41.6
+13121,"Pedro Aguirre Cerda","Gran Santiago",47
+13122,"Peñalolén","Gran Santiago",46.6
+13123,"Providencia","Gran Santiago",40.4
+13124,"Pudahuel","Gran Santiago",47.2
+13125,"Quilicura","Gran Santiago",41.9
+13126,"Quinta Normal","Gran Santiago",43
+13127,"Recoleta","Gran Santiago",46.1
+13128,"Renca","Gran Santiago",44
+13129,"San Joaquín","Gran Santiago",40.8
+13130,"San Miguel","Gran Santiago",45.2
+13131,"San Ramón","Gran Santiago",44.9
+13132,"Vitacura","Gran Santiago",45.5
+13201,"Puente Alto","Gran Santiago",44.8
+13401,"San Bernardo","Gran Santiago",43.6
+14101,"Valdivia","Valdivia",49.5
+15101,"Arica","Arica",42.6
+16101,"Chillán","Chillán",46.9
+16102,"Bulnes","Chillán",40.2
+16103,"Chillán Viejo","Chillán",52.9
+16301,"San Carlos","Chillán",53.2
+16305,"San Nicolás","Chillán",36.8
+1101,"Iquique","Iquique - Alto Hospicio",48.4
+1107,"Alto Hospicio","Iquique - Alto Hospicio",49.8
+2101,"Antofagasta","Antofagasta",48.9
+3101,"Copiapó","Copiapo",48.9
+4101,"La Serena","Gran Coquimbo",49.7
+4102,"Coquimbo","Gran Coquimbo",49.7
+5101,"Valparaíso","Valparaíso Metropolitano",53.6
+5103,"Concón","Valparaíso Metropolitano",46.7
+5109,"Viña del Mar","Valparaíso Metropolitano",51.3
+5801,"Quilpué","Valparaíso Metropolitano",50
+5804,"Villa Alemana","Valparaíso Metropolitano",49.1
+6101,"Rancagua","Rancagua - Machalí",49.7
+6108,"Machalí","Rancagua - Machalí",47.5
+7101,"Talca","Talca - Maule",54.1
+7105,"Maule","Talca - Maule",52.3
+8101,"Concepción","Gran Concepcion",54.1
+8102,"Coronel","Gran Concepcion",54.3
+8103,"Chiguayante","Gran Concepcion",57.1
+8106,"Lota","Gran Concepcion",54.8
+8107,"Penco","Gran Concepcion",54.6
+8108,"San Pedro de la Paz","Gran Concepcion",53.1
+8110,"Talcahuano","Gran Concepcion",52.9
+8111,"Tomé","Gran Concepcion",56.8
+8112,"Hualpén","Gran Concepcion",58.6
+9101,"Temuco","Temuco",52.4
+9112,"Padre Las Casas","Temuco",54.7
+10101,"Puerto Montt","Puerto Montt - Varas",55.9
+10109,"Puerto Varas","Puerto Montt - Varas",59.8
+11101,"Coihaique","Coyhaique",50.2
+12101,"Punta Arenas","Punta Arenas",55
+13101,"Santiago","Gran Santiago",47
+13102,"Cerrillos","Gran Santiago",43.8
+13103,"Cerro Navia","Gran Santiago",53.2
+13104,"Conchalí","Gran Santiago",49.6
+13105,"El Bosque","Gran Santiago",50.2
+13106,"Estación Central","Gran Santiago",48.5
+13107,"Huechuraba","Gran Santiago",48.9
+13108,"Independencia","Gran Santiago",50.5
+13109,"La Cisterna","Gran Santiago",44.5
+13110,"La Florida","Gran Santiago",48
+13111,"La Granja","Gran Santiago",54.2
+13112,"La Pintana","Gran Santiago",53.4
+13113,"La Reina","Gran Santiago",43.8
+13114,"Las Condes","Gran Santiago",45.8
+13115,"Lo Barnechea","Gran Santiago",46.4
+13116,"Lo Espejo","Gran Santiago",48.7
+13117,"Lo Prado","Gran Santiago",46.9
+13118,"Macul","Gran Santiago",52.1
+13119,"Maipú","Gran Santiago",47.6
+13120,"Ñuñoa","Gran Santiago",48.3
+13121,"Pedro Aguirre Cerda","Gran Santiago",49.4
+13122,"Peñalolén","Gran Santiago",52.8
+13123,"Providencia","Gran Santiago",45.5
+13124,"Pudahuel","Gran Santiago",55.7
+13125,"Quilicura","Gran Santiago",52.5
+13126,"Quinta Normal","Gran Santiago",51.2
+13127,"Recoleta","Gran Santiago",50.8
+13128,"Renca","Gran Santiago",51.8
+13129,"San Joaquín","Gran Santiago",49.5
+13130,"San Miguel","Gran Santiago",45.7
+13131,"San Ramón","Gran Santiago",49.8
+13132,"Vitacura","Gran Santiago",41.2
+13201,"Puente Alto","Gran Santiago",47.4
+13401,"San Bernardo","Gran Santiago",48.7
+14101,"Valdivia","Valdivia",53.4
+15101,"Arica","Arica",45.3
+16101,"Chillán","Chillán",53.3
+16102,"Bulnes","Chillán",43.2
+16103,"Chillán Viejo","Chillán",56.5
+16301,"San Carlos","Chillán",54.7
+16305,"San Nicolás","Chillán",40.8
+1101,"Iquique","Iquique - Alto Hospicio",45.2
+1107,"Alto Hospicio","Iquique - Alto Hospicio",46
+2101,"Antofagasta","Antofagasta",44.2
+3101,"Copiapó","Copiapo",46.7
+4101,"La Serena","Gran Coquimbo",48.1
+4102,"Coquimbo","Gran Coquimbo",46.5
+5101,"Valparaíso","Valparaíso Metropolitano",50
+5103,"Concón","Valparaíso Metropolitano",49.6
+5109,"Viña del Mar","Valparaíso Metropolitano",48.4
+5801,"Quilpué","Valparaíso Metropolitano",44.8
+5804,"Villa Alemana","Valparaíso Metropolitano",47.1
+6101,"Rancagua","Rancagua - Machalí",46.7
+6108,"Machalí","Rancagua - Machalí",44.7
+7101,"Talca","Talca - Maule",51.3
+7105,"Maule","Talca - Maule",50.9
+8101,"Concepción","Gran Concepcion",54
+8102,"Coronel","Gran Concepcion",54.8
+8103,"Chiguayante","Gran Concepcion",49.7
+8106,"Lota","Gran Concepcion",55.4
+8107,"Penco","Gran Concepcion",56.9
+8108,"San Pedro de la Paz","Gran Concepcion",53.2
+8110,"Talcahuano","Gran Concepcion",57.3
+8111,"Tomé","Gran Concepcion",58.4
+8112,"Hualpén","Gran Concepcion",58.2
+9101,"Temuco","Temuco",52.5
+9112,"Padre Las Casas","Temuco",58
+10101,"Puerto Montt","Puerto Montt - Varas",56.1
+10109,"Puerto Varas","Puerto Montt - Varas",59
+11101,"Coihaique","Coyhaique",57.6
+12101,"Punta Arenas","Punta Arenas",57.5
+13101,"Santiago","Gran Santiago",45.2
+13102,"Cerrillos","Gran Santiago",50.1
+13103,"Cerro Navia","Gran Santiago",46.4
+13104,"Conchalí","Gran Santiago",46
+13105,"El Bosque","Gran Santiago",46.3
+13106,"Estación Central","Gran Santiago",46.5
+13107,"Huechuraba","Gran Santiago",48
+13108,"Independencia","Gran Santiago",43.9
+13109,"La Cisterna","Gran Santiago",43.6
+13110,"La Florida","Gran Santiago",48.1
+13111,"La Granja","Gran Santiago",52.1
+13112,"La Pintana","Gran Santiago",49.1
+13113,"La Reina","Gran Santiago",44.9
+13114,"Las Condes","Gran Santiago",50.6
+13115,"Lo Barnechea","Gran Santiago",44.9
+13116,"Lo Espejo","Gran Santiago",47.3
+13117,"Lo Prado","Gran Santiago",45.7
+13118,"Macul","Gran Santiago",50.7
+13119,"Maipú","Gran Santiago",46.4
+13120,"Ñuñoa","Gran Santiago",43.6
+13121,"Pedro Aguirre Cerda","Gran Santiago",46.7
+13122,"Peñalolén","Gran Santiago",45.6
+13123,"Providencia","Gran Santiago",38.7
+13124,"Pudahuel","Gran Santiago",50.6
+13125,"Quilicura","Gran Santiago",46.5
+13126,"Quinta Normal","Gran Santiago",48.2
+13127,"Recoleta","Gran Santiago",45.6
+13128,"Renca","Gran Santiago",48.8
+13129,"San Joaquín","Gran Santiago",45.9
+13130,"San Miguel","Gran Santiago",45
+13131,"San Ramón","Gran Santiago",43.7
+13132,"Vitacura","Gran Santiago",40.6
+13201,"Puente Alto","Gran Santiago",46
+13401,"San Bernardo","Gran Santiago",45.9
+14101,"Valdivia","Valdivia",53.1
+15101,"Arica","Arica",44.3
+16101,"Chillán","Chillán",50.5
+16102,"Bulnes","Chillán",46.6
+16103,"Chillán Viejo","Chillán",48.6
+16301,"San Carlos","Chillán",52.7
+16305,"San Nicolás","Chillán",46.4
+1101,"Iquique","Iquique - Alto Hospicio",46.6
+1107,"Alto Hospicio","Iquique - Alto Hospicio",51.5
+2101,"Antofagasta","Antofagasta",45
+3101,"Copiapó","Copiapo",45.4
+4101,"La Serena","Gran Coquimbo",49.5
+4102,"Coquimbo","Gran Coquimbo",49.9
+5101,"Valparaíso","Valparaíso Metropolitano",50.3
+5103,"Concón","Valparaíso Metropolitano",52.2
+5109,"Viña del Mar","Valparaíso Metropolitano",50.2
+5801,"Quilpué","Valparaíso Metropolitano",46.7
+5804,"Villa Alemana","Valparaíso Metropolitano",47.7
+6101,"Rancagua","Rancagua - Machalí",51.5
+6108,"Machalí","Rancagua - Machalí",49.4
+7101,"Talca","Talca - Maule",53.6
+7105,"Maule","Talca - Maule",66.1
+8101,"Concepción","Gran Concepcion",52.8
+8102,"Coronel","Gran Concepcion",51.2
+8103,"Chiguayante","Gran Concepcion",60.8
+8106,"Lota","Gran Concepcion",60.1
+8107,"Penco","Gran Concepcion",53.7
+8108,"San Pedro de la Paz","Gran Concepcion",46.5
+8110,"Talcahuano","Gran Concepcion",56.5
+8111,"Tomé","Gran Concepcion",52.2
+8112,"Hualpén","Gran Concepcion",54.6
+9101,"Temuco","Temuco",54
+9112,"Padre Las Casas","Temuco",54.2
+10101,"Puerto Montt","Puerto Montt - Varas",54.7
+10109,"Puerto Varas","Puerto Montt - Varas",52
+11101,"Coihaique","Coyhaique",55.9
+12101,"Punta Arenas","Punta Arenas",54.8
+13101,"Santiago","Gran Santiago",46
+13102,"Cerrillos","Gran Santiago",47
+13103,"Cerro Navia","Gran Santiago",49.8
+13104,"Conchalí","Gran Santiago",50.1
+13105,"El Bosque","Gran Santiago",51
+13106,"Estación Central","Gran Santiago",46.9
+13107,"Huechuraba","Gran Santiago",47.2
+13108,"Independencia","Gran Santiago",45.8
+13109,"La Cisterna","Gran Santiago",44.1
+13110,"La Florida","Gran Santiago",46.2
+13111,"La Granja","Gran Santiago",46.8
+13112,"La Pintana","Gran Santiago",51.2
+13113,"La Reina","Gran Santiago",50.2
+13114,"Las Condes","Gran Santiago",41.4
+13115,"Lo Barnechea","Gran Santiago",49.9
+13116,"Lo Espejo","Gran Santiago",49.5
+13117,"Lo Prado","Gran Santiago",47.5
+13118,"Macul","Gran Santiago",49
+13119,"Maipú","Gran Santiago",49.5
+13120,"Ñuñoa","Gran Santiago",44.6
+13121,"Pedro Aguirre Cerda","Gran Santiago",46.1
+13122,"Peñalolén","Gran Santiago",51.5
+13123,"Providencia","Gran Santiago",44.1
+13124,"Pudahuel","Gran Santiago",50
+13125,"Quilicura","Gran Santiago",46.4
+13126,"Quinta Normal","Gran Santiago",45.4
+13127,"Recoleta","Gran Santiago",45.5
+13128,"Renca","Gran Santiago",48.7
+13129,"San Joaquín","Gran Santiago",49.1
+13130,"San Miguel","Gran Santiago",45.8
+13131,"San Ramón","Gran Santiago",52.5
+13132,"Vitacura","Gran Santiago",33.4
+13201,"Puente Alto","Gran Santiago",49.1
+13401,"San Bernardo","Gran Santiago",49.4
+14101,"Valdivia","Valdivia",55.3
+15101,"Arica","Arica",48.4
+16101,"Chillán","Chillán",52.7
+16102,"Bulnes","Chillán",43.8
+16103,"Chillán Viejo","Chillán",54.3
+16301,"San Carlos","Chillán",55.9
+16305,"San Nicolás","Chillán",43.7
+1101,"Iquique","Iquique - Alto Hospicio",50.2
+1107,"Alto Hospicio","Iquique - Alto Hospicio",53.7
+2101,"Antofagasta","Antofagasta",47.9
+3101,"Copiapó","Copiapo",47.2
+4101,"La Serena","Gran Coquimbo",50
+4102,"Coquimbo","Gran Coquimbo",53.3
+5101,"Valparaíso","Valparaíso Metropolitano",50.6
+5103,"Concón","Valparaíso Metropolitano",48.4
+5109,"Viña del Mar","Valparaíso Metropolitano",49.2
+5801,"Quilpué","Valparaíso Metropolitano",48.3
+5804,"Villa Alemana","Valparaíso Metropolitano",53.2
+6101,"Rancagua","Rancagua - Machalí",48.8
+6108,"Machalí","Rancagua - Machalí",51
+7101,"Talca","Talca - Maule",54.8
+7105,"Maule","Talca - Maule",57.7
+8101,"Concepción","Gran Concepcion",51.6
+8102,"Coronel","Gran Concepcion",54.9
+8103,"Chiguayante","Gran Concepcion",57.8
+8106,"Lota","Gran Concepcion",60.5
+8107,"Penco","Gran Concepcion",52.3
+8108,"San Pedro de la Paz","Gran Concepcion",52.8
+8110,"Talcahuano","Gran Concepcion",55.9
+8111,"Tomé","Gran Concepcion",59
+8112,"Hualpén","Gran Concepcion",56.1
+9101,"Temuco","Temuco",51.8
+9112,"Padre Las Casas","Temuco",59.4
+10101,"Puerto Montt","Puerto Montt - Varas",55.5
+10109,"Puerto Varas","Puerto Montt - Varas",54.4
+11101,"Coihaique","Coyhaique",58.4
+12101,"Punta Arenas","Punta Arenas",54.3
+13101,"Santiago","Gran Santiago",43.9
+13102,"Cerrillos","Gran Santiago",49.1
+13103,"Cerro Navia","Gran Santiago",48.6
+13104,"Conchalí","Gran Santiago",45.7
+13105,"El Bosque","Gran Santiago",48.5
+13106,"Estación Central","Gran Santiago",46.1
+13107,"Huechuraba","Gran Santiago",55
+13108,"Independencia","Gran Santiago",44.1
+13109,"La Cisterna","Gran Santiago",44.2
+13110,"La Florida","Gran Santiago",45
+13111,"La Granja","Gran Santiago",51.7
+13112,"La Pintana","Gran Santiago",48.5
+13113,"La Reina","Gran Santiago",45.9
+13114,"Las Condes","Gran Santiago",48.1
+13115,"Lo Barnechea","Gran Santiago",45.1
+13116,"Lo Espejo","Gran Santiago",50.2
+13117,"Lo Prado","Gran Santiago",47.8
+13118,"Macul","Gran Santiago",44.2
+13119,"Maipú","Gran Santiago",48.8
+13120,"Ñuñoa","Gran Santiago",40.4
+13121,"Pedro Aguirre Cerda","Gran Santiago",48.8
+13122,"Peñalolén","Gran Santiago",51.3
+13123,"Providencia","Gran Santiago",43.8
+13124,"Pudahuel","Gran Santiago",51.9
+13125,"Quilicura","Gran Santiago",46.2
+13126,"Quinta Normal","Gran Santiago",47.4
+13127,"Recoleta","Gran Santiago",49.5
+13128,"Renca","Gran Santiago",49.6
+13129,"San Joaquín","Gran Santiago",46.7
+13130,"San Miguel","Gran Santiago",43.1
+13131,"San Ramón","Gran Santiago",53.2
+13132,"Vitacura","Gran Santiago",45.8
+13201,"Puente Alto","Gran Santiago",45.7
+13401,"San Bernardo","Gran Santiago",49.9
+14101,"Valdivia","Valdivia",50.7
+15101,"Arica","Arica",47
+16101,"Chillán","Chillán",52.6
+16102,"Bulnes","Chillán",53.8
+16103,"Chillán Viejo","Chillán",59.5
+16301,"San Carlos","Chillán",55.8
+16305,"San Nicolás","Chillán",54
+1101,"Iquique","Iquique - Alto Hospicio",50.9
+1107,"Alto Hospicio","Iquique - Alto Hospicio",53.7
+2101,"Antofagasta","Antofagasta",49.2
+3101,"Copiapó","Copiapo",52.7
+4101,"La Serena","Gran Coquimbo",52.7
+4102,"Coquimbo","Gran Coquimbo",54.8
+5101,"Valparaíso","Valparaíso Metropolitano",53.1
+5103,"Concón","Valparaíso Metropolitano",51.6
+5109,"Viña del Mar","Valparaíso Metropolitano",53.6
+5801,"Quilpué","Valparaíso Metropolitano",51.5
+5804,"Villa Alemana","Valparaíso Metropolitano",51
+6101,"Rancagua","Rancagua - Machalí",51.4
+6108,"Machalí","Rancagua - Machalí",53.8
+7101,"Talca","Talca - Maule",52.7
+7105,"Maule","Talca - Maule",55.4
+8101,"Concepción","Gran Concepcion",57.3
+8102,"Coronel","Gran Concepcion",55.2
+8103,"Chiguayante","Gran Concepcion",58.4
+8106,"Lota","Gran Concepcion",63.6
+8107,"Penco","Gran Concepcion",52.7
+8108,"San Pedro de la Paz","Gran Concepcion",49.1
+8110,"Talcahuano","Gran Concepcion",50.5
+8111,"Tomé","Gran Concepcion",57.9
+8112,"Hualpén","Gran Concepcion",57.8
+9101,"Temuco","Temuco",55.9
+9112,"Padre Las Casas","Temuco",57.5
+10101,"Puerto Montt","Puerto Montt - Varas",55.9
+10109,"Puerto Varas","Puerto Montt - Varas",55.5
+11101,"Coihaique","Coyhaique",53
+12101,"Punta Arenas","Punta Arenas",50.6
+13101,"Santiago","Gran Santiago",44
+13102,"Cerrillos","Gran Santiago",52.4
+13103,"Cerro Navia","Gran Santiago",55
+13104,"Conchalí","Gran Santiago",56.8
+13105,"El Bosque","Gran Santiago",53.9
+13106,"Estación Central","Gran Santiago",50
+13107,"Huechuraba","Gran Santiago",45.2
+13108,"Independencia","Gran Santiago",49.3
+13109,"La Cisterna","Gran Santiago",46.8
+13110,"La Florida","Gran Santiago",52.7
+13111,"La Granja","Gran Santiago",58.2
+13112,"La Pintana","Gran Santiago",51.7
+13113,"La Reina","Gran Santiago",47.6
+13114,"Las Condes","Gran Santiago",44.7
+13115,"Lo Barnechea","Gran Santiago",54.1
+13116,"Lo Espejo","Gran Santiago",56.1
+13117,"Lo Prado","Gran Santiago",55.3
+13118,"Macul","Gran Santiago",50.7
+13119,"Maipú","Gran Santiago",49.6
+13120,"Ñuñoa","Gran Santiago",47.8
+13121,"Pedro Aguirre Cerda","Gran Santiago",48
+13122,"Peñalolén","Gran Santiago",55.5
+13123,"Providencia","Gran Santiago",44.8
+13124,"Pudahuel","Gran Santiago",57.6
+13125,"Quilicura","Gran Santiago",50.9
+13126,"Quinta Normal","Gran Santiago",46.1
+13127,"Recoleta","Gran Santiago",50
+13128,"Renca","Gran Santiago",54.2
+13129,"San Joaquín","Gran Santiago",47
+13130,"San Miguel","Gran Santiago",45.9
+13131,"San Ramón","Gran Santiago",49.4
+13132,"Vitacura","Gran Santiago",42
+13201,"Puente Alto","Gran Santiago",54.1
+13401,"San Bernardo","Gran Santiago",50.6
+14101,"Valdivia","Valdivia",51.7
+15101,"Arica","Arica",49.3
+16101,"Chillán","Chillán",55.5
+16102,"Bulnes","Chillán",54.7
+16103,"Chillán Viejo","Chillán",61.8
+16301,"San Carlos","Chillán",51.7
+16305,"San Nicolás","Chillán",58.1

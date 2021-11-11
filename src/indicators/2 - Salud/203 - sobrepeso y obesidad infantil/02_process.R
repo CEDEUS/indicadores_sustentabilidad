@@ -34,7 +34,7 @@ diagnutr_com <- diagnutr %>%
   group_by(agno, comuna, nom_com, city) %>%
   summarise(sobobesum = sum(sobobesum),
             total = sum(total),
-            dato = round(sobobesum * 100/total, 1 )) %>%
+            percent = round(sobobesum * 100/total, 1 )) %>%
   select(-sobobesum, -total) 
 
 # Procesar los datos a nivel ciudad
@@ -43,7 +43,7 @@ diagnutr_city <- diagnutr %>%
   group_by(agno, city) %>%
   summarise(sobobesum = sum(sobobesum),
             total = sum(total),
-            dato = round(sobobesum * 100/total, 1 )) %>%
+            percent = round(sobobesum * 100/total, 1 )) %>%
   select(-sobobesum, -total) 
 
 # Procesar los datos a nivel comunal para el pmc

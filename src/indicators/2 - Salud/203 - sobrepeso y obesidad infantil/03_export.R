@@ -11,13 +11,14 @@
 library(tidyverse)
 library(here)
 library(glue)
-library(sf)
+
 
 # Indicador
 indicator <- "2 - Salud/203 - sobrepeso y obesidad infantil"
 
 # Importar funciones auxiliares
 source("src/functions/get_workdirs.R")
+source("src/functions/write_files.R", encoding = "utf-8")
 
 # Rutas de trabajo
 dirs <- getDirs(indicator)
@@ -27,38 +28,24 @@ load(glue("{dirs@cleandatadir}/diagnutr_com.RDS"))
 load(glue("{dirs@cleandatadir}/diagnutr_city.RDS"))
 load(glue("{dirs@cleandatadir}/diagnutr_pmc.RDS"))
 
+
 # Identificar años de datos
 agnos <- unique(diagnutr_com$agno)
 
 #### Exportar datos ####
-indiname <- str_split(string =  indicator, pattern =  "/")[[1]][2] %>%
-  paste0("_")
+# Nombre de exportación
+indicator_name <- str_split(string =  indicator, pattern =  "/")[[1]][2]
 
-# Nivel Comunal
-lapply(agnos, function(x){
-  print(paste("Exportando a nivel Comunal. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- diagnutr_com %>%
-    filter(agno == x)
-  write.csv2(tmp, glue("{dirs@outdircom}/{filename}"), row.names = F)
-})
+# Exportar csvs
+write_indicator(diagnutr_com, indicator_name, ind_scale = "com", 
+                outdir = dirs@outdircom)
 
-# Nivel ciudad
-lapply(agnos, function(x){
-  print(paste("Exportando a nivel Ciudad. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- diagnutr_city %>%
-    filter(agno == x)
-  write.csv2(tmp, glue("{dirs@outdircty}{filename}"), row.names = F)
-})
+write_indicator(diagnutr_city, indicator_name, ind_scale = "cty", 
+                outdir = dirs@outdircty)
 
-# Nivel pmc
-lapply(agnos, function(x){
-  print(paste("Exportando datos para PMC. Año: ", x))
-  filename <- paste0(indiname,x, ".csv")
-  tmp <- diagnutr_pmc %>%
-    filter(agno == x) %>%
-    select( -agno)
-  write.csv(tmp, glue("{dirs@outdirpmc}{filename}"), row.names = F)
-})
+write_indicator(diagnutr_pmc, indicator_name, ind_scale = "pmc", 
+                outdir = dirs@outdirpmc)
+
+# Exportar shp
+write_shp(diagnutr_com, indicator_name, "percent", "comunas_dpa2017.shp")
 

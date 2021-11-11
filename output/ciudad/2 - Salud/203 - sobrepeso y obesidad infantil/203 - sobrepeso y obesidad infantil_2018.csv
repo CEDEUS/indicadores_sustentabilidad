@@ -1,17 +1,193 @@
-"agno";"city";"dato"
-"2018";"Antofagasta";45
-"2018";"Arica";48,4
-"2018";"Chillán";52,8
-"2018";"Copiapo";45,4
-"2018";"Coyhaique";55,9
-"2018";"Gran Concepcion";53,5
-"2018";"Gran Coquimbo";49,7
-"2018";"Gran Santiago";48,1
-"2018";"Iquique - Alto Hospicio";48,5
-"2018";"Puerto Montt - Varas";54,3
-"2018";"Punta Arenas";54,8
-"2018";"Rancagua - Machalí";51,2
-"2018";"Talca - Maule";54,7
-"2018";"Temuco";54
-"2018";"Valdivia";55,3
-"2018";"Valparaíso Metropolitano";49,3
+"city","percent"
+"Antofagasta",43.6
+"Arica",45.6
+"Chillán",47.7
+"Copiapo",47.3
+"Coyhaique",55.7
+"Gran Concepcion",48.9
+"Gran Coquimbo",47.8
+"Gran Santiago",44.8
+"Iquique - Alto Hospicio",45.4
+"Puerto Montt - Varas",53.5
+"Punta Arenas",55.4
+"Rancagua - Machalí",45.5
+"Talca - Maule",45.7
+"Temuco",49
+"Valdivia",53.8
+"Valparaíso Metropolitano",47.5
+"Antofagasta",48.6
+"Arica",46.6
+"Chillán",49
+"Copiapo",48.6
+"Coyhaique",50.4
+"Gran Concepcion",49.4
+"Gran Coquimbo",48.4
+"Gran Santiago",47
+"Iquique - Alto Hospicio",47
+"Puerto Montt - Varas",54
+"Punta Arenas",50.8
+"Rancagua - Machalí",44.8
+"Talca - Maule",48.9
+"Temuco",49
+"Valdivia",52.3
+"Valparaíso Metropolitano",47.7
+"Antofagasta",46.5
+"Arica",49.6
+"Chillán",52.2
+"Copiapo",47.6
+"Coyhaique",54.7
+"Gran Concepcion",51.5
+"Gran Coquimbo",49.9
+"Gran Santiago",47.8
+"Iquique - Alto Hospicio",45.9
+"Puerto Montt - Varas",50.7
+"Punta Arenas",55.1
+"Rancagua - Machalí",50.4
+"Talca - Maule",51.3
+"Temuco",52.9
+"Valdivia",54.4
+"Valparaíso Metropolitano",48.4
+"Antofagasta",48.5
+"Arica",41.4
+"Chillán",45.8
+"Copiapo",52.6
+"Coyhaique",55.1
+"Gran Concepcion",52.5
+"Gran Coquimbo",48.8
+"Gran Santiago",48.1
+"Iquique - Alto Hospicio",47.6
+"Puerto Montt - Varas",52.1
+"Punta Arenas",57.2
+"Rancagua - Machalí",49.5
+"Talca - Maule",50
+"Temuco",52.5
+"Valdivia",46.6
+"Valparaíso Metropolitano",50.4
+"Antofagasta",47.9
+"Arica",47.6
+"Chillán",51.8
+"Copiapo",53.8
+"Coyhaique",58.2
+"Gran Concepcion",53.4
+"Gran Coquimbo",50
+"Gran Santiago",49.5
+"Iquique - Alto Hospicio",47.6
+"Puerto Montt - Varas",51.5
+"Punta Arenas",53.8
+"Rancagua - Machalí",49.8
+"Talca - Maule",54.5
+"Temuco",51.9
+"Valdivia",58.6
+"Valparaíso Metropolitano",50.8
+"Antofagasta",49.9
+"Arica",47.9
+"Chillán",55.9
+"Copiapo",49.5
+"Coyhaique",55.2
+"Gran Concepcion",52.9
+"Gran Coquimbo",50.2
+"Gran Santiago",49.7
+"Iquique - Alto Hospicio",48.9
+"Puerto Montt - Varas",50.3
+"Punta Arenas",55.2
+"Rancagua - Machalí",49.8
+"Talca - Maule",52.5
+"Temuco",53.4
+"Valdivia",54.7
+"Valparaíso Metropolitano",50.2
+"Antofagasta",43.2
+"Arica",42.6
+"Chillán",47.9
+"Copiapo",45.1
+"Coyhaique",51.1
+"Gran Concepcion",47.8
+"Gran Coquimbo",45.2
+"Gran Santiago",44.4
+"Iquique - Alto Hospicio",44.1
+"Puerto Montt - Varas",48.6
+"Punta Arenas",43.5
+"Rancagua - Machalí",44.2
+"Talca - Maule",43.6
+"Temuco",47.7
+"Valdivia",49.5
+"Valparaíso Metropolitano",45.4
+"Antofagasta",48.9
+"Arica",45.3
+"Chillán",53.2
+"Copiapo",48.9
+"Coyhaique",50.2
+"Gran Concepcion",54.7
+"Gran Coquimbo",49.7
+"Gran Santiago",49.3
+"Iquique - Alto Hospicio",48.9
+"Puerto Montt - Varas",56.3
+"Punta Arenas",55
+"Rancagua - Machalí",49.3
+"Talca - Maule",54
+"Temuco",52.7
+"Valdivia",53.4
+"Valparaíso Metropolitano",51.2
+"Antofagasta",44.2
+"Arica",44.3
+"Chillán",50.5
+"Copiapo",46.7
+"Coyhaique",57.6
+"Gran Concepcion",54.9
+"Gran Coquimbo",47.4
+"Gran Santiago",46.7
+"Iquique - Alto Hospicio",45.5
+"Puerto Montt - Varas",56.4
+"Punta Arenas",57.5
+"Rancagua - Machalí",46.4
+"Talca - Maule",51.3
+"Temuco",53.3
+"Valdivia",53.1
+"Valparaíso Metropolitano",48.1
+"Antofagasta",45
+"Arica",48.4
+"Chillán",52.8
+"Copiapo",45.4
+"Coyhaique",55.9
+"Gran Concepcion",53.5
+"Gran Coquimbo",49.7
+"Gran Santiago",48.1
+"Iquique - Alto Hospicio",48.5
+"Puerto Montt - Varas",54.3
+"Punta Arenas",54.8
+"Rancagua - Machalí",51.2
+"Talca - Maule",54.7
+"Temuco",54
+"Valdivia",55.3
+"Valparaíso Metropolitano",49.3
+"Antofagasta",47.9
+"Arica",47
+"Chillán",53.6
+"Copiapo",47.2
+"Coyhaique",58.4
+"Gran Concepcion",54.7
+"Gran Coquimbo",51.7
+"Gran Santiago",47.5
+"Iquique - Alto Hospicio",51.6
+"Puerto Montt - Varas",55.4
+"Punta Arenas",54.3
+"Rancagua - Machalí",49.1
+"Talca - Maule",55
+"Temuco",52.8
+"Valdivia",50.7
+"Valparaíso Metropolitano",50
+"Antofagasta",49.2
+"Arica",49.3
+"Chillán",55.5
+"Copiapo",52.7
+"Coyhaique",53
+"Gran Concepcion",55.3
+"Gran Coquimbo",53.6
+"Gran Santiago",51.2
+"Iquique - Alto Hospicio",52.2
+"Puerto Montt - Varas",55.8
+"Punta Arenas",50.6
+"Rancagua - Machalí",51.7
+"Talca - Maule",52.8
+"Temuco",56.1
+"Valdivia",51.7
+"Valparaíso Metropolitano",52.7

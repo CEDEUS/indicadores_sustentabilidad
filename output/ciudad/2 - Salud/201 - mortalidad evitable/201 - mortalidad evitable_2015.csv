@@ -1,17 +1,305 @@
-"agno";"city";"tasa"
-2015;"Antofagasta";101,416495244987
-2015;"Arica";56,7222313668378
-2015;"Chillán";96,0516633562945
-2015;"Copiapo";60,7042767136569
-2015;"Coyhaique";64,0331909113323
-2015;"Gran Concepcion";83,8101505097065
-2015;"Gran Coquimbo";65,314342123897
-2015;"Gran Santiago";78,3115609680772
-2015;"Iquique - Alto Hospicio";85,6917724412363
-2015;"Puerto Montt - Varas";66,9342142022054
-2015;"Punta Arenas";75,7255009670073
-2015;"Rancagua - Machalí";86,3858484696047
-2015;"Talca - Maule";69,5696377543134
-2015;"Temuco";79,5324269022722
-2015;"Valdivia";70,9049472474224
-2015;"Valparaíso Metropolitano";71,5631382976298
+"city","tasa"
+"Antofagasta",100.139483715491
+"Arica",90.7403961724157
+"Chillán",113.824533504147
+"Copiapo",96.1907039672499
+"Coyhaique",92.3276612070251
+"Gran Concepcion",100.993314927733
+"Gran Coquimbo",69.0589609694651
+"Gran Santiago",80.0004294037301
+"Iquique - Alto Hospicio",99.038119450399
+"Puerto Montt - Varas",101.336037391362
+"Punta Arenas",89.1107361960391
+"Rancagua - Machalí",98.8921420605338
+"Talca - Maule",94.7068280908848
+"Temuco",87.1793456652313
+"Valdivia",84.1688336244483
+"Valparaíso Metropolitano",90.9989090739111
+"Antofagasta",93.7181455697752
+"Arica",76.7179880726445
+"Chillán",107.873091886702
+"Copiapo",80.4582677701965
+"Coyhaique",70.9874782939064
+"Gran Concepcion",102.211968363707
+"Gran Coquimbo",74.2664561351052
+"Gran Santiago",77.6058266331646
+"Iquique - Alto Hospicio",80.8775422269325
+"Puerto Montt - Varas",80.9342770622853
+"Punta Arenas",114.705524692335
+"Rancagua - Machalí",113.574699364219
+"Talca - Maule",99.0895808421708
+"Temuco",97.1250647030442
+"Valdivia",94.2523857309432
+"Valparaíso Metropolitano",94.0523167459374
+"Antofagasta",87.9382814161802
+"Arica",70.40366762391
+"Chillán",102.237170146165
+"Copiapo",77.8872914086042
+"Coyhaique",79.1160891472134
+"Gran Concepcion",83.1161541024861
+"Gran Coquimbo",72.1217665828676
+"Gran Santiago",80.4772963026998
+"Iquique - Alto Hospicio",100.053781244516
+"Puerto Montt - Varas",76.8326855594946
+"Punta Arenas",107.883469360933
+"Rancagua - Machalí",83.2656701956489
+"Talca - Maule",169.647098639861
+"Temuco",82.5399163982948
+"Valdivia",87.7304861813636
+"Valparaíso Metropolitano",89.8675514477862
+"Antofagasta",87.9537014930345
+"Arica",76.5506067487498
+"Chillán",102.291103752078
+"Copiapo",74.2108879881283
+"Coyhaique",80.9259934456636
+"Gran Concepcion",88.2557115919363
+"Gran Coquimbo",71.4334666484497
+"Gran Santiago",74.7093452996843
+"Iquique - Alto Hospicio",80.7256441738275
+"Puerto Montt - Varas",97.9514362581107
+"Punta Arenas",104.667045393117
+"Rancagua - Machalí",82.2884579884996
+"Talca - Maule",77.212661878541
+"Temuco",77.0269290078964
+"Valdivia",72.0065111510955
+"Valparaíso Metropolitano",84.6152178444025
+"Antofagasta",92.7163563581077
+"Arica",64.4918269458022
+"Chillán",100.104392490729
+"Copiapo",66.7940950418074
+"Coyhaique",87.3153333970957
+"Gran Concepcion",81.1920389515223
+"Gran Coquimbo",57.9086118971804
+"Gran Santiago",74.191299453677
+"Iquique - Alto Hospicio",72.7095057122091
+"Puerto Montt - Varas",88.0568183632149
+"Punta Arenas",105.761855278436
+"Rancagua - Machalí",89.3132856756572
+"Talca - Maule",81.0330111637194
+"Temuco",78.771207187884
+"Valdivia",88.7892597898859
+"Valparaíso Metropolitano",79.6843944145457
+"Antofagasta",99.9717187796323
+"Arica",59.3396691682027
+"Chillán",91.6019094432709
+"Copiapo",65.1601480954971
+"Coyhaique",67.0920694774333
+"Gran Concepcion",94.1967793983696
+"Gran Coquimbo",71.4067017333413
+"Gran Santiago",78.1519887951444
+"Iquique - Alto Hospicio",70.8728818596066
+"Puerto Montt - Varas",85.5430646589069
+"Punta Arenas",96.1267705527849
+"Rancagua - Machalí",84.7265404475074
+"Talca - Maule",79.3237557549763
+"Temuco",78.3604427019966
+"Valdivia",75.7364377268302
+"Valparaíso Metropolitano",86.3875801438677
+"Antofagasta",97.2542432796219
+"Arica",66.5934625412463
+"Chillán",94.9619078624967
+"Copiapo",70.7939963906626
+"Coyhaique",71.047720691838
+"Gran Concepcion",84.6313257696869
+"Gran Coquimbo",62.3155583819484
+"Gran Santiago",72.9796663039441
+"Iquique - Alto Hospicio",94.281930506953
+"Puerto Montt - Varas",80.2030579079403
+"Punta Arenas",92.2840738342663
+"Rancagua - Machalí",93.3775636163085
+"Talca - Maule",92.4186445113694
+"Temuco",86.6388344467092
+"Valdivia",75.2464169835992
+"Valparaíso Metropolitano",95.8444764831293
+"Antofagasta",101.074955046723
+"Arica",63.2778853239218
+"Chillán",93.1101059247619
+"Copiapo",79.7186622542729
+"Coyhaique",99.2298476391412
+"Gran Concepcion",92.4909055612106
+"Gran Coquimbo",57.8544288526764
+"Gran Santiago",73.9046066117322
+"Iquique - Alto Hospicio",87.3611480425897
+"Puerto Montt - Varas",84.8995297414713
+"Punta Arenas",85.2642993825289
+"Rancagua - Machalí",80.1176589211688
+"Talca - Maule",85.2727776891301
+"Temuco",81.0274324228265
+"Valdivia",87.8025526896384
+"Valparaíso Metropolitano",81.6819457325203
+"Antofagasta",86.8002636301178
+"Arica",61.5462227441429
+"Chillán",93.411321738447
+"Copiapo",79.0375505988674
+"Coyhaique",80.1696209854578
+"Gran Concepcion",85.7702256471059
+"Gran Coquimbo",60.1485001624951
+"Gran Santiago",76.7801481223844
+"Iquique - Alto Hospicio",80.5335833139834
+"Puerto Montt - Varas",87.616420977338
+"Punta Arenas",91.1973651114942
+"Rancagua - Machalí",80.9661589013002
+"Talca - Maule",88.6324605072758
+"Temuco",75.2084822466955
+"Valdivia",93.3105631067147
+"Valparaíso Metropolitano",79.5951495633665
+"Antofagasta",89.6215413823836
+"Arica",63.8844450111255
+"Chillán",98.6291496092623
+"Copiapo",58.7436524169498
+"Coyhaique",83.9632269069019
+"Gran Concepcion",78.9478292267739
+"Gran Coquimbo",61.9838570631552
+"Gran Santiago",73.4069376202259
+"Iquique - Alto Hospicio",72.9512273388519
+"Puerto Montt - Varas",72.1676957781294
+"Punta Arenas",84.2439478716309
+"Rancagua - Machalí",82.9814820380888
+"Talca - Maule",79.7645586951611
+"Temuco",70.4977196140671
+"Valdivia",69.0408963321943
+"Valparaíso Metropolitano",73.0625289410809
+"Antofagasta",85.100150750762
+"Arica",62.0453838864967
+"Chillán",91.0385860438017
+"Copiapo",81.6203447065974
+"Coyhaique",83.3861706812028
+"Gran Concepcion",84.6251753622533
+"Gran Coquimbo",65.8622650311278
+"Gran Santiago",73.6968988071704
+"Iquique - Alto Hospicio",82.3271848305393
+"Puerto Montt - Varas",69.5797085603715
+"Punta Arenas",88.5325115063334
+"Rancagua - Machalí",90.7070324726708
+"Talca - Maule",79.2239132317492
+"Temuco",74.8956920738276
+"Valdivia",66.7338464268707
+"Valparaíso Metropolitano",80.9132796310449
+"Antofagasta",88.2713216241769
+"Arica",78.5749723001358
+"Chillán",89.2780759963204
+"Copiapo",67.4183112692393
+"Coyhaique",71.3580115022941
+"Gran Concepcion",88.271883373891
+"Gran Coquimbo",70.4677602410986
+"Gran Santiago",77.5670279103775
+"Iquique - Alto Hospicio",85.9552168833656
+"Puerto Montt - Varas",80.0905348945405
+"Punta Arenas",71.6845886235854
+"Rancagua - Machalí",78.7226844366171
+"Talca - Maule",80.0441807404564
+"Temuco",83.2469081187487
+"Valdivia",67.8849110325861
+"Valparaíso Metropolitano",82.3862444870179
+"Antofagasta",98.6685471751325
+"Arica",59.9552687208161
+"Chillán",108.255874518283
+"Copiapo",65.2124673685353
+"Coyhaique",54.4119737840678
+"Gran Concepcion",91.0477196904545
+"Gran Coquimbo",65.3973067435169
+"Gran Santiago",79.4547771598664
+"Iquique - Alto Hospicio",98.9069556234918
+"Puerto Montt - Varas",70.2118867026679
+"Punta Arenas",92.9614355926595
+"Rancagua - Machalí",84.9224716752814
+"Talca - Maule",75.1775219810628
+"Temuco",85.0798073403947
+"Valdivia",85.8715925691712
+"Valparaíso Metropolitano",77.21342698423
+"Antofagasta",101.416495244987
+"Arica",56.7222313668378
+"Chillán",96.0516633562945
+"Copiapo",60.7042767136569
+"Coyhaique",64.0331909113323
+"Gran Concepcion",83.8101505097065
+"Gran Coquimbo",65.314342123897
+"Gran Santiago",78.3115609680772
+"Iquique - Alto Hospicio",85.6917724412363
+"Puerto Montt - Varas",66.9342142022054
+"Punta Arenas",75.7255009670073
+"Rancagua - Machalí",86.3858484696047
+"Talca - Maule",69.5696377543134
+"Temuco",79.5324269022722
+"Valdivia",70.9049472474224
+"Valparaíso Metropolitano",71.5631382976298
+"Antofagasta",82.8451145877814
+"Arica",72.6478058898779
+"Chillán",94.3351277655246
+"Copiapo",72.2257935692351
+"Coyhaique",70.8808090288992
+"Gran Concepcion",82.0587302356171
+"Gran Coquimbo",68.297292717147
+"Gran Santiago",74.9553204212358
+"Iquique - Alto Hospicio",81.3453018690929
+"Puerto Montt - Varas",68.6380532433152
+"Punta Arenas",82.4374951723017
+"Rancagua - Machalí",74.1319647333452
+"Talca - Maule",66.5901797915612
+"Temuco",82.9494345989195
+"Valdivia",79.2854548162403
+"Valparaíso Metropolitano",70.0766469372862
+"Antofagasta",89.2436860705667
+"Arica",69.3518546697907
+"Chillán",81.1074337961255
+"Copiapo",64.5424806279352
+"Coyhaique",81.121008563197
+"Gran Concepcion",79.0320763044482
+"Gran Coquimbo",71.3096700213609
+"Gran Santiago",73.1892113021018
+"Iquique - Alto Hospicio",79.3847386749202
+"Puerto Montt - Varas",68.3589337635592
+"Punta Arenas",76.6290109159567
+"Rancagua - Machalí",77.9654791477716
+"Talca - Maule",66.1675394027539
+"Temuco",71.4160230752349
+"Valdivia",73.8380401320347
+"Valparaíso Metropolitano",78.6161363956144
+"Antofagasta",85.9169322480024
+"Arica",69.7506633144305
+"Chillán",82.3767254324978
+"Copiapo",74.5023559134865
+"Coyhaique",52.5758686545677
+"Gran Concepcion",83.9134379616494
+"Gran Coquimbo",66.9023033061596
+"Gran Santiago",71.1570578010908
+"Iquique - Alto Hospicio",71.4698286866769
+"Puerto Montt - Varas",70.3685819291459
+"Punta Arenas",81.2760397954537
+"Rancagua - Machalí",76.8320310528731
+"Talca - Maule",66.6676386149883
+"Temuco",70.3608131266216
+"Valdivia",56.400627821893
+"Valparaíso Metropolitano",69.0121701891809
+"Antofagasta",76.6014484144518
+"Arica",65.3663128524587
+"Chillán",92.1905577452082
+"Copiapo",74.4072201046521
+"Coyhaique",65.3254616048658
+"Gran Concepcion",81.8738272691296
+"Gran Coquimbo",66.8135655616874
+"Gran Santiago",74.2774895373804
+"Iquique - Alto Hospicio",72.1185461350657
+"Puerto Montt - Varas",67.7340707425805
+"Punta Arenas",88.8403034579386
+"Rancagua - Machalí",83.093924911438
+"Talca - Maule",66.9927579443413
+"Temuco",76.2354716491274
+"Valdivia",66.0705258106212
+"Valparaíso Metropolitano",76.1713016582235
+"Antofagasta",70.7937026911042
+"Arica",70.3263622852158
+"Chillán",88.7687782196636
+"Copiapo",66.2558109925578
+"Coyhaique",52.3332294973427
+"Gran Concepcion",68.8474049241119
+"Gran Coquimbo",62.6990709953585
+"Gran Santiago",65.0841988839205
+"Iquique - Alto Hospicio",71.574462912929
+"Puerto Montt - Varas",60.1692957330706
+"Punta Arenas",67.5318030750908
+"Rancagua - Machalí",73.4477889413955
+"Talca - Maule",54.4985198874931
+"Temuco",63.4789922253587
+"Valdivia",58.8236879780337
+"Valparaíso Metropolitano",72.8932367070654
