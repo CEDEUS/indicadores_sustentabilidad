@@ -1,6 +1,6 @@
 # indicadores_sustentabilidad
 
-Github del proyecto de indicadores de sustentabilidad CEDEUS.
+Github del proyecto de indicadores de sustentabilidad CEDEUS [en desarrollo].
 
 ## Instrucciones de uso:
 En la carpeta data/raw está el archivo warehouselink.txt
