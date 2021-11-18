@@ -12,7 +12,7 @@ indice;indicador;data;folder
 202;años de vida potencialmente perdidos;deis;minsal/deis/esperanza_vida/
 202;años de vida potencialmente perdidos;estimaciones_poblacion;ine/estimaciones_poblacion/
 203;sobrepeso y obesidad infantil;junaeb;mineduc/junaeb/mapa_nutricional
-204;accesibilidad a ferias libres;;
+204;accesibilidad a ferias libres;asof;asof/feriaslibres/shp/
 301;hacinamiento;censo;ine/censos/
 302;familias en campamentos;techo;techo/campamentos/
 303;pobreza infantil;casen;mindes/casen/
